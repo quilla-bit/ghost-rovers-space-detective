@@ -1,0 +1,152 @@
+[
+  {
+    "id": "apollo-11-lrrr",
+    "name": "Apollo 11 Laser Ranging Retroreflector",
+    "destination": "Moon",
+    "location": "Sea of Tranquility (0.67337° N, 23.47293° E)",
+    "landingDate": "1969-07-20",
+    "status": "Active Passive Target",
+    "iconSvg": "lunar-reflector-icon.svg",
+    "audioFile": "/audio/apollo11_reflector.mp3",
+    "storyHook": "Humans left me behind in the dust of Tranquility Base in 1969. I have no batteries, no computer chips, and no moving parts. Yet every week, scientists on Earth shoot super-powered green lasers across 238,000 miles of space directly at my face.",
+    "scienceBreakthrough": "Proved the Moon is drifting away from Earth at a rate of 3.8 cm per year.",
+    "spaceMath": [
+      { "label": "Active Duration", "value": "57+ Years", "detail": "Longest running active experiment" },
+      { "label": "Reflector Array", "value": "100 Cubes", "detail": "Fused-silica corner prisms" },
+      { "label": "Laser Round-Trip", "value": "2.5 Seconds", "detail": "Light speed to Moon and back" },
+      { "label": "Lunar Drift Rate", "value": "3.8 cm / year", "detail": "Measured to millimeter accuracy" }
+    ],
+    "quiz": {
+      "question": "How long does it take for a laser shot from Earth to bounce off the Retroreflector and return?",
+      "options": ["25 Seconds", "2.5 Seconds", "0.25 Seconds"],
+      "correctIndex": 1,
+      "explanation": "Light travels at 186,000 miles per second! Round-trip to the Moon takes ~2.5 seconds.",
+      "badgeUnlocked": "Lunar Surveyor Badge"
+    }
+  },
+  {
+    "id": "surveyor-3",
+    "name": "Surveyor 3",
+    "destination": "Moon",
+    "location": "Ocean of Storms (3.015° S, 23.418° W)",
+    "landingDate": "1967-04-20",
+    "status": "Inactive (Visited by Apollo 12)",
+    "iconSvg": "surveyor3-icon.svg",
+    "audioFile": "/audio/surveyor3.mp3",
+    "storyHook": "I thought I was going to be alone forever in the dark freezing nights of the Ocean of Storms. But 31 months after I landed, I heard footsteps!",
+    "scienceBreakthrough": "First robotic lander visited by humans on another world; proved Earth bacteria could survive 2.5 years in lunar vacuum.",
+    "spaceMath": [
+      { "label": "Lunar Exposure", "value": "31 Months", "detail": "Alone prior to Apollo 12 visit" },
+      { "label": "Hardware Returned", "value": "10 kg", "detail": "Camera and scoop brought home" },
+      { "label": "Distance to Module", "value": "180 Meters", "detail": "Apollo 12 landed right next door" },
+      { "label": "Scoop Depth", "value": "17.5 cm", "detail": "Soil trench mechanics tested" }
+    ],
+    "quiz": {
+      "question": "Which Apollo mission visited Surveyor 3 on the Moon in November 1969?",
+      "options": ["Apollo 11", "Apollo 12", "Apollo 17"],
+      "correctIndex": 1,
+      "explanation": "Apollo 12 astronauts Pete Conrad and Alan Bean landed within walking distance of Surveyor 3!",
+      "badgeUnlocked": "Ocean Explorer Badge"
+    }
+  },
+  {
+    "id": "opportunity-rover",
+    "name": "Opportunity Rover (Oppy)",
+    "destination": "Mars",
+    "location": "Meridiani Planum / Endeavour Crater",
+    "landingDate": "2004-01-25",
+    "status": "Silent (Decommissioned 2018)",
+    "iconSvg": "opportunity-icon.svg",
+    "audioFile": "/audio/opportunity.mp3",
+    "storyHook": "They gave me a 90-day warranty. I stayed alive for nearly 15 Earth years! I climbed steep mountain rims, survived freezing Martian winters, and rolled 28 miles across red dust.",
+    "scienceBreakthrough": "Discovered hematite 'blueberries' proving liquid water once flowed across Mars.",
+    "spaceMath": [
+      { "label": "Lifespan Multiplier", "value": "56.7x", "detail": "Planned 90 Sols vs 5,111 Sols actual" },
+      { "label": "Distance Traveled", "value": "45.16 km", "detail": "28.06 miles driven on Mars" },
+      { "label": "Images Returned", "value": "217,594", "detail": "High-res raw Martian photos" },
+      { "label": "Active Years", "value": "14.5 Years", "detail": "Operational from 2004 to 2018" }
+    ],
+    "quiz": {
+      "question": "How long was Opportunity originally planned to operate on Mars?",
+      "options": ["90 Sols (Days)", "1 Year", "5 Years"],
+      "correctIndex": 0,
+      "explanation": "Opportunity was designed for a 90-day mission but astounded NASA by working for nearly 15 years!",
+      "badgeUnlocked": "Red Planet Rover Badge"
+    }
+  },
+  {
+    "id": "insight-lander",
+    "name": "InSight Lander",
+    "destination": "Mars",
+    "location": "Elysium Planitia",
+    "landingDate": "2018-11-26",
+    "status": "Silent (Decommissioned 2022)",
+    "iconSvg": "insight-icon.svg",
+    "audioFile": "/audio/insight.mp3",
+    "storyHook": "While other rovers looked at the surface, I put my ear to the ground and listened to the heartbeat of Mars! I placed a delicate glass dome seismometer directly onto the red soil.",
+    "scienceBreakthrough": "Recorded over 1,300 Marsquakes to map the internal crust, mantle, and core of Mars.",
+    "spaceMath": [
+      { "label": "Marsquakes Detected", "value": "1,319 Events", "detail": "Internal seismic activity mapped" },
+      { "label": "Max Quake Recorded", "value": "Mag 4.7", "detail": "Largest quake on another planet" },
+      { "label": "Core Radius", "value": "1,830 km", "detail": "Liquid iron-nickel core size" },
+      { "label": "Power Drop", "value": "94% Loss", "detail": "Solar power reduced by dust layers" }
+    ],
+    "quiz": {
+      "question": "What instrument did InSight use to record over 1,300 Marsquakes?",
+      "options": ["Radar Scanner", "SEIS Seismometer", "Laser Drill"],
+      "correctIndex": 1,
+      "explanation": "InSight placed the SEIS seismometer on the Martian surface to record internal tremors.",
+      "badgeUnlocked": "Seismic Detective Badge"
+    }
+  },
+  {
+    "id": "ingenuity-helicopter",
+    "name": "Ingenuity Mars Helicopter",
+    "destination": "Mars",
+    "location": "Jezero Crater",
+    "landingDate": "2021-04-19",
+    "status": "Retired (Rotor Damaged 2024)",
+    "iconSvg": "ingenuity-icon.svg",
+    "audioFile": "/audio/ingenuity.mp3",
+    "storyHook": "Everyone said flying on Mars was impossible because the air is 100 times thinner than Earth's! But I spun my dual carbon-fiber blades at 2,400 RPMs and lifted off.",
+    "scienceBreakthrough": "First powered, controlled flight on another planet; proved aerial scouting on Mars is viable.",
+    "spaceMath": [
+      { "label": "Flight Multiplier", "value": "14.4x", "detail": "Planned 5 flights vs 72 completed" },
+      { "label": "Total Airtime", "value": "128.8 Mins", "detail": "Accumulated over 72 flights" },
+      { "label": "Flight Distance", "value": "17.0 km", "detail": "10.5 total miles flown" },
+      { "label": "Rotor Speed", "value": "2,400 RPM", "detail": "10x faster than Earth helicopters" }
+    ],
+    "quiz": {
+      "question": "Why is flying a helicopter on Mars much harder than flying on Earth?",
+      "options": ["Gravity is 10x stronger", "Martian air is 100x thinner than Earth's", "Mars has no sunlight"],
+      "correctIndex": 1,
+      "explanation": "Mars has an extremely thin atmosphere (less than 1% of Earth's density), requiring high blade speeds to generate lift!",
+      "badgeUnlocked": "Martian Aviator Badge"
+    }
+  },
+  {
+    "id": "voyager-1",
+    "name": "Voyager 1",
+    "destination": "Deep Space",
+    "location": "Interstellar Space (Outer Heliosphere)",
+    "landingDate": "1977-09-05",
+    "status": "Active Operational Probe",
+    "iconSvg": "voyager1-icon.svg",
+    "audioFile": "/audio/voyager1.mp3",
+    "storyHook": "I am the farthest human traveler in history. I launched in 1977, flew past Jupiter and Saturn, and in 2012, I broke through the magnetic bubble of our Sun into interstellar space!",
+    "scienceBreakthrough": "First human-made object to exit the heliosphere and record raw interstellar particles.",
+    "spaceMath": [
+      { "label": "Distance from Earth", "value": ">24.3 Billion km", "detail": "Over 162 Astronomical Units (AU)" },
+      { "label": "Cruising Speed", "value": "61,000 km/h", "detail": "Approx 38,000 miles per hour" },
+      { "label": "Signal Lag", "value": "22.5 Hours", "detail": "One-way light transit time to Earth" },
+      { "label": "Operational Age", "value": "49 Years", "detail": "Launched in September 1977" }
+    ],
+    "quiz": {
+      "question": "What famous golden item is attached to Voyager 1 to communicate with potential extraterrestrial life?",
+      "options": ["Golden Flag", "Golden Record", "Golden Key"],
+      "correctIndex": 1,
+      "explanation": "Voyager 1 carries a phonograph record containing sounds, music, and images from Earth!",
+      "badgeUnlocked": "Interstellar Pioneer Badge"
+    }
+  }
+]
