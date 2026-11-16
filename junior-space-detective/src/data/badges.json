@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "badges": [
+    {
+      "id": "first_steps",
+      "name": "First Steps",
+      "description": "Complete your first Junior Space Detective quiz.",
+      "icon": "boots",
+      "category": "quiz",
+      "requirement": { "type": "count", "metric": "quizzesCompleted", "target": 1 },
+      "points": 25,
+      "rarity": "common"
+    },
+    {
+      "id": "moon_explorer",
+      "name": "Moon Explorer",
+      "description": "Open the file for any lunar artifact.",
+      "icon": "moon",
+      "category": "exploration",
+      "requirement": { "type": "destination", "destination": "Moon" },
+      "points": 25,
+      "rarity": "common"
+    },
+    {
+      "id": "red_planet_detective",
+      "name": "Red Planet Detective",
+      "description": "Investigate an artifact left on Mars.",
+      "icon": "mars",
+      "category": "exploration",
+      "requirement": { "type": "destination", "destination": "Mars" },
+      "points": 25,
+      "rarity": "common"
+    },
+    {
+      "id": "deep_space_traveler",
+      "name": "Deep Space Traveler",
+      "description": "Investigate an artifact travelling beyond the planets.",
+      "icon": "telescope",
+      "category": "exploration",
+      "requirement": { "type": "destination", "destination": "Deep Space" },
+      "points": 35,
+      "rarity": "uncommon"
+    },
+    {
+      "id": "sharp_mind",
+      "name": "Sharp Mind",
+      "description": "Finish a quiz with at least 80% accuracy.",
+      "icon": "brain",
+      "category": "quiz",
+      "requirement": { "type": "accuracy", "target": 80 },
+      "points": 50,
+      "rarity": "uncommon"
+    },
+    {
+      "id": "decoder_rookie",
+      "name": "Decoder Rookie",
+      "description": "Solve your first decoder puzzle.",
+      "icon": "key",
+      "category": "decoder",
+      "requirement": { "type": "count", "metric": "decoderPuzzlesCompleted", "target": 1 },
+      "points": 25,
+      "rarity": "common"
+    },
+    {
+      "id": "code_breaker",
+      "name": "Code Breaker",
+      "description": "Solve five decoder puzzles.",
+      "icon": "lock_open",
+      "category": "decoder",
+      "requirement": { "type": "count", "metric": "decoderPuzzlesCompleted", "target": 5 },
+      "points": 75,
+      "rarity": "rare"
+    },
+    {
+      "id": "nasa_historian",
+      "name": "NASA Historian",
+      "description": "Explore ten unique artifacts.",
+      "icon": "book",
+      "category": "exploration",
+      "requirement": { "type": "count", "metric": "artifactsExplored", "target": 10 },
+      "points": 75,
+      "rarity": "rare"
+    },
+    {
+      "id": "perfect_mission",
+      "name": "Perfect Mission",
+      "description": "Complete a quiz with 100% accuracy.",
+      "icon": "trophy",
+      "category": "quiz",
+      "requirement": { "type": "count", "metric": "perfectQuizzes", "target": 1 },
+      "points": 100,
+      "rarity": "rare"
+    },
+    {
+      "id": "space_expert",
+      "name": "Space Expert",
+      "description": "Unlock every other badge in the collection.",
+      "icon": "star",
+      "category": "mastery",
+      "requirement": { "type": "all_badges" },
+      "points": 250,
+      "rarity": "legendary"
+    }
+  ]
+}

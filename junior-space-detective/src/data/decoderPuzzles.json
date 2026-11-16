@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "notice": "All encoded messages in this file are fictional educational puzzles created for this game. They are not real NASA transmissions, and no decoded message should be presented as historical mission data.",
+  "puzzles": [
+    {
+      "id": "decoder_phoenix_water",
+      "title": "The Frozen Signal",
+      "artifactId": "mars_phoenix",
+      "difficulty": "beginner",
+      "type": "caesar_cipher",
+      "shift": 3,
+      "encodedMessage": "ZDWHU",
+      "correctAnswer": "WATER",
+      "acceptedAnswers": ["water"],
+      "hints": [
+        "Every letter has been moved three places forward in the alphabet.",
+        "To decode, move each letter three places backwards: Z becomes W.",
+        "The message is something Phoenix found beneath the Martian soil."
+      ],
+      "explanation": "Phoenix confirmed water ice just below the surface at the Martian north pole by scraping soil and watching the ice turn to vapour. This puzzle message is simulated.",
+      "context": "In 2008, Phoenix scraped away Martian soil and exposed bright ice beneath it.",
+      "points": 20,
+      "maxAttempts": 3,
+      "isSimulated": true
+    },
+    {
+      "id": "decoder_sojourner_rover",
+      "title": "Pathfinder Call Sign",
+      "artifactId": "mars_sojourner",
+      "difficulty": "beginner",
+      "type": "caesar_cipher",
+      "shift": 3,
+      "encodedMessage": "URYHU",
+      "correctAnswer": "ROVER",
+      "acceptedAnswers": ["rover"],
+      "hints": [
+        "This is a Caesar cipher with a shift of three places.",
+        "U decodes to R. Shift each letter back by three.",
+        "The answer is the kind of vehicle Sojourner was."
+      ],
+      "explanation": "Sojourner was the first wheeled rover to operate on another planet. This puzzle message is simulated.",
+      "context": "Sojourner arrived on Mars with the Mars Pathfinder lander on 4 July 1997.",
+      "points": 20,
+      "maxAttempts": 3,
+      "isSimulated": true
+    },
+    {
+      "id": "decoder_eagle_number",
+      "title": "Eagle Number Code",
+      "artifactId": "apollo11_lm_eagle",
+      "difficulty": "beginner",
+      "type": "number_to_letter",
+      "encodedMessage": "5-1-7-12-5",
+      "correctAnswer": "EAGLE",
+      "acceptedAnswers": ["eagle"],
+      "hints": [
+        "Each number stands for a letter. A is 1, B is 2, C is 3, and so on.",
+        "The first number is 5, which means the first letter is E.",
+        "The answer is the name of the Apollo 11 Lunar Module."
+      ],
+      "explanation": "The Apollo 11 Lunar Module was named Eagle. Its descent stage is still on the Moon in Mare Tranquillitatis. This puzzle message is simulated.",
+      "context": "Apollo 11's Lunar Module carried two astronauts to the surface on 20 July 1969.",
+      "points": 20,
+      "maxAttempts": 3,
+      "isSimulated": true
+    },
+    {
+      "id": "decoder_voyager_gold",
+      "title": "The Golden Message",
+      "artifactId": "voyager1",
+      "difficulty": "beginner",
+      "type": "caesar_cipher",
+      "shift": 3,
+      "encodedMessage": "JROG",
+      "correctAnswer": "GOLD",
+      "acceptedAnswers": ["gold"],
+      "hints": [
+        "Shift each letter three places backwards in the alphabet.",
+        "J becomes G, and O becomes L.",
+        "The answer describes the material of the record Voyager carries."
+      ],
+      "explanation": "Voyager 1 and 2 each carry a Golden Record containing sounds and images of Earth. This puzzle message is simulated.",
+      "context": "The Golden Record was designed as a message from Earth to any future finder of the spacecraft.",
+      "points": 20,
+      "maxAttempts": 3,
+      "isSimulated": true
+    },
+    {
+      "id": "decoder_titan_beacon",
+      "title": "Titan Landing Beacon",
+      "artifactId": "cassini",
+      "difficulty": "intermediate",
+      "type": "caesar_cipher",
+      "shift": 3,
+      "encodedMessage": "WLWDQ",
+      "correctAnswer": "TITAN",
+      "acceptedAnswers": ["titan"],
+      "hints": [
+        "This cipher moves letters three places forward when encoding.",
+        "To decode, move each letter back three places: W becomes T.",
+        "The answer is the moon where the Huygens probe landed."
+      ],
+      "explanation": "The Huygens probe, carried by Cassini, landed on Titan in January 2005. This puzzle message is simulated.",
+      "context": "Titan has lakes and seas of liquid methane and ethane, and a thick nitrogen atmosphere.",
+      "points": 30,
+      "maxAttempts": 4,
+      "isSimulated": true
+    },
+    {
+      "id": "decoder_hadley_grid",
+      "title": "Hadley Rille Coordinates",
+      "artifactId": "apollo15_lrv",
+      "difficulty": "intermediate",
+      "type": "number_to_letter",
+      "encodedMessage": "8-1-4-12-5-25",
+      "correctAnswer": "HADLEY",
+      "acceptedAnswers": ["hadley"],
+      "hints": [
+        "Convert each number to its alphabet position: 1 = A, 26 = Z.",
+        "8 is H and 1 is A.",
+        "The answer is the name of the rille the Apollo 15 crew explored."
+      ],
+      "explanation": "Apollo 15 explored the Hadley-Apennine region and drove the first Lunar Roving Vehicle along Hadley Rille. This puzzle message is simulated.",
+      "context": "Hadley Rille is a winding channel carved by ancient lava flows.",
+      "points": 30,
+      "maxAttempts": 4,
+      "isSimulated": true
+    },
+    {
+      "id": "decoder_gale_keycard",
+      "title": "Gale Crater Keycard",
+      "artifactId": "mars_curiosity",
+      "difficulty": "intermediate",
+      "type": "letter_substitution",
+      "cipherAlphabet": "SPACEFLIGHTBDJKMNOQRUVWXYZ",
+      "encodedMessage": "LSBE",
+      "correctAnswer": "GALE",
+      "acceptedAnswers": ["gale"],
+      "hints": [
+        "This is a substitution cipher: each letter is replaced by a different letter, using a key alphabet.",
+        "The key alphabet begins with the word SPACEFLIGHT, followed by the rest of the alphabet in order.",
+        "G maps to L, and A maps to S. Work out the last two letters."
+      ],
+      "explanation": "Curiosity landed in Gale Crater in 2012 and found evidence of an ancient freshwater lake. This puzzle message is simulated.",
+      "context": "Gale Crater contains Mount Sharp, a layered mountain built from ancient lake sediments.",
+      "points": 30,
+      "maxAttempts": 4,
+      "isSimulated": true
+    },
+    {
+      "id": "decoder_jezero_sample",
+      "title": "Jezero Sample Label",
+      "artifactId": "mars_perseverance",
+      "difficulty": "advanced",
+      "type": "letter_substitution",
+      "cipherAlphabet": "SPACEFLIGHTBDJKMNOQRUVWXYZ",
+      "encodedMessage": "HEZEOK",
+      "correctAnswer": "JEZERO",
+      "acceptedAnswers": ["jezero"],
+      "hints": [
+        "Substitution cipher with a key alphabet. Repeated letters in the code are repeated letters in the answer.",
+        "The key alphabet starts with SPACEFLIGHT. Find each coded letter in the key and read the matching plain letter.",
+        "J maps to H and R maps to O. The answer is the crater Perseverance is exploring."
+      ],
+      "explanation": "Perseverance is collecting rock cores in Jezero Crater, an ancient lake basin with a river delta. This puzzle message is simulated.",
+      "context": "Jezero Crater once held a lake fed by rivers, making it a prime target in the search for ancient life.",
+      "points": 40,
+      "maxAttempts": 5,
+      "isSimulated": true
+    },
+    {
+      "id": "decoder_uranus_pass",
+      "title": "Uranus Flyby Code",
+      "artifactId": "voyager2",
+      "difficulty": "advanced",
+      "type": "caesar_cipher",
+      "shift": 5,
+      "encodedMessage": "ZWFSZX",
+      "correctAnswer": "URANUS",
+      "acceptedAnswers": ["uranus"],
+      "hints": [
+        "This Caesar cipher uses a shift of five places, not three.",
+        "Move each letter five places backwards: Z becomes U.",
+        "The answer is the planet Voyager 2 visited in 1986."
+      ],
+      "explanation": "Voyager 2 is the only spacecraft to fly past Uranus, in January 1986. This puzzle message is simulated.",
+      "context": "Uranus has an unusually tilted magnetic field and orbits on its side.",
+      "points": 40,
+      "maxAttempts": 5,
+      "isSimulated": true
+    },
+    {
+      "id": "decoder_sojourner_whoami",
+      "title": "Who Am I?",
+      "artifactId": "mars_sojourner",
+      "difficulty": "beginner",
+      "type": "artifact_identification",
+      "encodedMessage": "I landed with airbags in 1997 • I was the first wheeled rover on another planet • I only drove about 100 metres",
+      "correctAnswer": "SOJOURNER",
+      "acceptedAnswers": ["sojourner"],
+      "hints": [
+        "This is not a cipher. Read the three clues and name the artifact.",
+        "It travelled with the Mars Pathfinder lander.",
+        "It was named after Sojourner Truth in a student essay contest."
+      ],
+      "explanation": "Sojourner was the small rover delivered by Mars Pathfinder in 1997. This puzzle message is simulated.",
+      "context": "Sojourner weighed 10.6 kg and communicated through the Pathfinder lander.",
+      "points": 20,
+      "maxAttempts": 3,
+      "isSimulated": true
+    }
+  ]
+}

@@ -1,0 +1,1250 @@
+{
+  "version": 1,
+  "lastReviewed": "2026-11-15",
+  "artifacts": [
+    {
+      "id": "apollo11_lm_eagle",
+      "name": "Apollo 11 Lunar Module Eagle (Descent Stage)",
+      "category": "Lunar Module",
+      "destination": "Moon",
+      "mission": "Apollo 11",
+      "agency": "NASA",
+      "deploymentDate": "1969-07-20",
+      "status": "inactive",
+      "communicationStatus": "No signal. The descent stage has no power source or transmitter of its own and has been silent since the ascent stage lifted off.",
+      "locationDescription": "Mare Tranquillitatis (Sea of Tranquility), near 0.67° N, 23.47° E on the Moon.",
+      "missionObjective": [
+        "Perform the first crewed landing on the Moon",
+        "Collect lunar surface samples for return to Earth",
+        "Deploy the Early Apollo Scientific Experiments Package",
+        "Photograph and document the landing site"
+      ],
+      "scientificDiscoveries": [
+        "Returned about 21.5 kg of lunar rock and soil for laboratory analysis",
+        "Provided the first measurements of how lunar soil behaves under foot and spacecraft loads",
+        "Confirmed that the mare surface was firm enough to support a landed spacecraft"
+      ],
+      "historicalSignificance": "Eagle carried Neil Armstrong and Buzz Aldrin to the lunar surface on 20 July 1969 while Michael Collins orbited above in Columbia. The descent stage deliberately stayed behind and served as the launch platform when the ascent stage returned to orbit. The site is a protected heritage location and has been photographed from orbit by NASA's Lunar Reconnaissance Orbiter.",
+      "educationalSummary": "Apollo 11's descent stage is the hardware that made the first Moon landing possible. Half of the Lunar Module was designed to be left behind, turning a spacecraft into a permanent piece of lunar archaeology.",
+      "funFacts": [
+        "Leaving the descent stage on the Moon saved the mass needed to get the crew home.",
+        "Lunar Reconnaissance Orbiter cameras can pick out the descent stage and astronaut footpaths from orbit.",
+        "Armstrong and Aldrin had only about two and a half hours outside the lander on this mission."
+      ],
+      "difficulty": "beginner",
+      "relatedArtifacts": [
+        "apollo11_easep",
+        "apollo12_lm_intrepid",
+        "apollo17_lm_challenger"
+      ],
+      "quizQuestionIds": [
+        "quiz_apollo11_001",
+        "quiz_apollo11_002",
+        "quiz_apollo11_003"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Apollo 11 Mission Overview",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/mission/apollo-11/",
+          "type": "primary"
+        },
+        {
+          "title": "NSSDCA Spacecraft Display: Apollo 11 Lunar Module",
+          "publisher": "NASA NSSDCA",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "apollo11_easep",
+      "name": "Apollo 11 Early Apollo Scientific Experiments Package (EASEP)",
+      "category": "Scientific Instrument Package",
+      "destination": "Moon",
+      "mission": "Apollo 11",
+      "agency": "NASA",
+      "deploymentDate": "1969-07-21",
+      "status": "partially_operational",
+      "communicationStatus": "The passive seismometer stopped transmitting on 27 August 1969. The laser retro-reflector needs no power and is still used by ranging stations on Earth.",
+      "locationDescription": "Mare Tranquillitatis, roughly 17 m from the Lunar Module Eagle.",
+      "missionObjective": [
+        "Record moonquakes and meteorite impacts with a passive seismometer",
+        "Provide a laser retro-reflector target for Earth-based ranging",
+        "Measure the temperature and dust environment at the surface"
+      ],
+      "scientificDiscoveries": [
+        "Produced the first seismic recordings made on another world",
+        "Enabled precise laser ranging measurements of the Earth-Moon distance",
+        "Revealed how quickly solar-powered instruments can overheat during the lunar night"
+      ],
+      "historicalSignificance": "The EASEP was the first science payload deployed by astronauts on the Moon. Its retro-reflector began a laser ranging programme that continues today and is one of the longest-running experiments in space science.",
+      "educationalSummary": "Not all abandoned equipment is broken. The EASEP contains a mirror array with no electronics at all, which still bounces laser pulses back to Earth more than fifty years later.",
+      "funFacts": [
+        "The retro-reflector is an array of corner-cube prisms that send light straight back to its source.",
+        "Laser ranging shows the Moon is moving away from Earth by about 3.8 cm each year."
+      ],
+      "difficulty": "intermediate",
+      "relatedArtifacts": [
+        "apollo11_lm_eagle",
+        "apollo15_lrrr"
+      ],
+      "quizQuestionIds": [
+        "quiz_easep_001",
+        "quiz_easep_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Apollo 11 Mission Overview",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/mission/apollo-11/",
+          "type": "primary"
+        },
+        {
+          "title": "NSSDCA Spacecraft Display: Apollo 11 Lunar Module",
+          "publisher": "NASA NSSDCA",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "apollo12_lm_intrepid",
+      "name": "Apollo 12 Lunar Module Intrepid (Descent Stage)",
+      "category": "Lunar Module",
+      "destination": "Moon",
+      "mission": "Apollo 12",
+      "agency": "NASA",
+      "deploymentDate": "1969-11-19",
+      "status": "inactive",
+      "communicationStatus": "No signal. The descent stage was left on the surface when the ascent stage departed.",
+      "locationDescription": "Oceanus Procellarum, about 155 m from the Surveyor 3 lander.",
+      "missionObjective": [
+        "Demonstrate a precision landing at a chosen target",
+        "Deploy the Apollo Lunar Surface Experiments Package",
+        "Visit and sample the Surveyor 3 spacecraft",
+        "Collect rock and soil samples from a second lunar site"
+      ],
+      "scientificDiscoveries": [
+        "Recovered about 10 kg of Surveyor 3 hardware so engineers could study how materials aged on the Moon",
+        "Returned samples of a second mare region, including basaltic lava",
+        "Showed that pin-point landing was possible, which later missions depended on"
+      ],
+      "historicalSignificance": "Apollo 12 proved that astronauts could land near a specific target and walk to equipment left by an earlier robotic mission. The visit to Surveyor 3 remains the only time people have inspected a spacecraft on another world.",
+      "educationalSummary": "Intrepid's descent stage sits beside Surveyor 3, a robot that landed two and a half years earlier. Apollo 12 turned the Moon into a field site where hardware could be revisited and studied.",
+      "funFacts": [
+        "The Apollo 12 rocket was struck by lightning twice during launch and still completed its mission.",
+        "Astronauts Pete Conrad and Alan Bean brought pieces of Surveyor 3 home in their sample bags."
+      ],
+      "difficulty": "intermediate",
+      "relatedArtifacts": [
+        "surveyor3",
+        "apollo11_lm_eagle",
+        "apollo15_lrv"
+      ],
+      "quizQuestionIds": [
+        "quiz_apollo12_001",
+        "quiz_apollo12_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Apollo 12 Mission Overview",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/mission/apollo-12/",
+          "type": "primary"
+        },
+        {
+          "title": "Surveyor 3",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/surveyor-3/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "apollo15_lrv",
+      "name": "Apollo 15 Lunar Roving Vehicle",
+      "category": "Lunar Roving Vehicle",
+      "destination": "Moon",
+      "mission": "Apollo 15",
+      "agency": "NASA",
+      "deploymentDate": "1971-07-31",
+      "status": "inactive",
+      "communicationStatus": "No signal. The rover's batteries were never recharged after the crew left.",
+      "locationDescription": "Hadley-Apennine region near Hadley Rille, Moon.",
+      "missionObjective": [
+        "Extend the astronauts' exploration range beyond walking distance",
+        "Carry tools, cameras and sample containers",
+        "Reach geological targets around Hadley Rille and the Apennine mountains"
+      ],
+      "scientificDiscoveries": [
+        "Drove about 27.8 km and let the crew sample widely separated sites in one mission",
+        "Returned the 'Genesis Rock', an anorthosite sample that helped show the lunar highlands formed early in the Moon's history",
+        "Revealed the layered volcanic history exposed along Hadley Rille"
+      ],
+      "historicalSignificance": "The first Lunar Roving Vehicle turned a two-day moonwalk into a geological expedition. Three rovers were built for Apollo 15, 16 and 17, and all three remain on the Moon.",
+      "educationalSummary": "The Apollo rover was a battery-powered car designed to fold up for launch and never come home. It showed how mobility multiplies what explorers can learn.",
+      "funFacts": [
+        "Each wheel had its own electric motor and could be steered independently.",
+        "The Apollo 17 rover later set the lunar driving record of about 18 km/h.",
+        "No human has driven on the Moon since December 1972."
+      ],
+      "difficulty": "beginner",
+      "relatedArtifacts": [
+        "apollo15_lrrr",
+        "apollo17_lm_challenger",
+        "apollo11_lm_eagle"
+      ],
+      "quizQuestionIds": [
+        "quiz_lrv_001",
+        "quiz_lrv_002",
+        "quiz_lrv_003"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Apollo 15 Mission Overview",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/mission/apollo-15/",
+          "type": "primary"
+        },
+        {
+          "title": "NSSDCA Spacecraft Display: Apollo 15 Lunar Module",
+          "publisher": "NASA NSSDCA",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "apollo15_lrrr",
+      "name": "Apollo 15 Laser Ranging Retro-Reflector",
+      "category": "Scientific Instrument",
+      "destination": "Moon",
+      "mission": "Apollo 15",
+      "agency": "NASA",
+      "deploymentDate": "1971-07-31",
+      "status": "operational",
+      "communicationStatus": "Still functional. Observatories on Earth regularly receive returns from this retro-reflector.",
+      "locationDescription": "Hadley-Apennine landing site, Moon.",
+      "missionObjective": [
+        "Provide a precise laser target for Earth-based ranging",
+        "Measure the Earth-Moon distance and lunar orbit over decades"
+      ],
+      "scientificDiscoveries": [
+        "Supports centimetre-level measurements of the Earth-Moon distance",
+        "Helps test predictions of general relativity and models of the lunar interior",
+        "Contributed to measuring the Moon's gradual recession from Earth"
+      ],
+      "historicalSignificance": "Apollo 15 carried a larger retro-reflector array than Apollo 11, and it remains one of the most productive instruments left on the Moon. It is hardware that is still in service half a century after it was abandoned.",
+      "educationalSummary": "This instrument works with no power, no moving parts and no maintenance. Scientists simply fire a laser at it and time the round trip.",
+      "funFacts": [
+        "A laser pulse sent from Earth and returned takes about 2.5 seconds for the round trip.",
+        "The reflector is passive, so it will keep working for as long as the prisms stay clean."
+      ],
+      "difficulty": "intermediate",
+      "relatedArtifacts": [
+        "apollo15_lrv",
+        "apollo11_easep"
+      ],
+      "quizQuestionIds": [
+        "quiz_lrrr_001",
+        "quiz_lrrr_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Apollo 15 Mission Overview",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/mission/apollo-15/",
+          "type": "primary"
+        },
+        {
+          "title": "The Moon",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/moon/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "apollo17_lm_challenger",
+      "name": "Apollo 17 Lunar Module Challenger (Descent Stage)",
+      "category": "Lunar Module",
+      "destination": "Moon",
+      "mission": "Apollo 17",
+      "agency": "NASA",
+      "deploymentDate": "1972-12-11",
+      "status": "inactive",
+      "communicationStatus": "No signal. The ascent stage was deliberately crashed into the Moon after the crew left; the descent stage remains at the landing site.",
+      "locationDescription": "Taurus-Littrow valley, Moon.",
+      "missionObjective": [
+        "Conduct the final crewed lunar landing of the Apollo programme",
+        "Sample ancient highland material and young volcanic deposits",
+        "Deploy the Apollo Lunar Surface Experiments Package",
+        "Test the Lunar Roving Vehicle on long traverses"
+      ],
+      "scientificDiscoveries": [
+        "The crew found orange soil at Shorty crater, made of tiny volcanic glass beads",
+        "The glass beads showed that explosive volcanic eruptions happened on the Moon billions of years ago",
+        "Samples from the valley helped date major events in lunar history"
+      ],
+      "historicalSignificance": "Apollo 17 was the last time humans walked on the Moon. Challenger's descent stage marks the end of the Apollo surface programme and one of the most scientifically productive landing sites.",
+      "educationalSummary": "Apollo 17 carried a trained geologist, Harrison Schmitt, who helped the crew recognise unusual deposits. The orange soil they found is still a highlight of lunar science.",
+      "funFacts": [
+        "The orange colour comes from volcanic glass beads, not rust.",
+        "The ascent stage was crashed on purpose and its impact was recorded by seismometers left by earlier missions.",
+        "Eugene Cernan and Harrison Schmitt were the last two people to stand on the Moon."
+      ],
+      "difficulty": "beginner",
+      "relatedArtifacts": [
+        "apollo15_lrv",
+        "apollo11_lm_eagle",
+        "apollo12_lm_intrepid"
+      ],
+      "quizQuestionIds": [
+        "quiz_apollo17_001",
+        "quiz_apollo17_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Apollo 17 Mission Overview",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/mission/apollo-17/",
+          "type": "primary"
+        },
+        {
+          "title": "The Moon",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/moon/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "surveyor1",
+      "name": "Surveyor 1",
+      "category": "Lunar Lander",
+      "destination": "Moon",
+      "mission": "Surveyor 1",
+      "agency": "NASA",
+      "deploymentDate": "1966-06-02",
+      "status": "inactive",
+      "communicationStatus": "Contact was lost on 7 July 1966 after the spacecraft exceeded its design life.",
+      "locationDescription": "Oceanus Procellarum, Moon, near 2.45° S, 43.22° W.",
+      "missionObjective": [
+        "Demonstrate a soft landing on the Moon",
+        "Test whether the surface could support a landed spacecraft",
+        "Return television images of the lunar surface"
+      ],
+      "scientificDiscoveries": [
+        "Proved that the lunar surface was firm enough for Apollo landers",
+        "Returned more than 11,000 images of the surface and horizon",
+        "Showed the surface layer behaves like a fine, cohesive soil"
+      ],
+      "historicalSignificance": "Surveyor 1 was the first American spacecraft to soft-land on the Moon. Its engineering data directly supported the Apollo programme and reduced the risk of the landers sinking into loose dust.",
+      "educationalSummary": "Before astronauts could land, robots had to test the ground. Surveyor 1 answered the crucial question: the Moon's surface would hold a spacecraft.",
+      "funFacts": [
+        "It landed just four months after the Soviet Luna 9 achieved the first lunar soft landing.",
+        "Its camera was a slow-scan television system that returned images line by line."
+      ],
+      "difficulty": "intermediate",
+      "relatedArtifacts": [
+        "surveyor3",
+        "apollo11_lm_eagle"
+      ],
+      "quizQuestionIds": [
+        "quiz_surveyor1_001",
+        "quiz_surveyor1_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Surveyor 1",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/surveyor-1/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "surveyor3",
+      "name": "Surveyor 3",
+      "category": "Lunar Lander",
+      "destination": "Moon",
+      "mission": "Surveyor 3",
+      "agency": "NASA",
+      "deploymentDate": "1967-04-20",
+      "status": "inactive",
+      "communicationStatus": "No signal. The lander stopped transmitting in 1967 but its hardware was still intact when Apollo 12 visited in 1969.",
+      "locationDescription": "Oceanus Procellarum, Moon, near 2.94° S, 23.34° W.",
+      "missionObjective": [
+        "Survey a potential Apollo landing region",
+        "Test surface properties with a soil mechanics experiment",
+        "Return images and data from the lunar surface"
+      ],
+      "scientificDiscoveries": [
+        "Provided surface data used in planning Apollo landings",
+        "Showed minimal degradation after about two and a half years exposed to space",
+        "Its returned parts helped engineers understand how spacecraft materials survive the lunar environment"
+      ],
+      "historicalSignificance": "Surveyor 3 is the only spacecraft on another world that humans have visited and sampled. Apollo 12 astronauts removed about 10 kg of its hardware for study on Earth.",
+      "educationalSummary": "Surveyor 3 was a robot left alone on the Moon, then visited by astronauts. The parts they brought back are a rare direct test of how equipment ages in space.",
+      "funFacts": [
+        "Astronauts Conrad and Bean walked about 155 m from their lander to reach Surveyor 3.",
+        "A famous early claim of surviving microbes inside the returned camera was later argued to be contamination during handling."
+      ],
+      "difficulty": "intermediate",
+      "relatedArtifacts": [
+        "surveyor1",
+        "apollo12_lm_intrepid"
+      ],
+      "quizQuestionIds": [
+        "quiz_surveyor3_001"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Surveyor 3",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/surveyor-3/",
+          "type": "primary"
+        },
+        {
+          "title": "Apollo 12 Mission Overview",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/mission/apollo-12/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "lcross_centaur",
+      "name": "LCROSS Centaur Impactor",
+      "category": "Impact Probe",
+      "destination": "Moon",
+      "mission": "Lunar Crater Observation and Sensing Satellite (LCROSS)",
+      "agency": "NASA",
+      "deploymentDate": "2009-10-09",
+      "status": "destroyed",
+      "communicationStatus": "None. The Centaur stage was destroyed on impact by design.",
+      "locationDescription": "Cabeus crater near the lunar south pole, a permanently shadowed region.",
+      "missionObjective": [
+        "Impact a permanently shadowed lunar crater",
+        "Analyse the ejected material for water and other volatiles",
+        "Characterise the chemistry of cold-trapped material"
+      ],
+      "scientificDiscoveries": [
+        "Detected water in the impact plume, reported at roughly 5.6% by mass of the material sampled",
+        "Found other volatile compounds including hydrogen-bearing species",
+        "Confirmed that permanently shadowed polar craters store water ice and other materials"
+      ],
+      "historicalSignificance": "LCROSS deliberately crashed hardware into the Moon to study what was inside a dark polar crater. The result changed how scientists think about water resources at the lunar poles.",
+      "educationalSummary": "Sometimes the way to learn what is hidden is to make a controlled impact and read the debris. LCROSS used a spent rocket stage as a scientific probe.",
+      "funFacts": [
+        "The Centaur stage hit the crater floor at about 9,000 km/h.",
+        "A second spacecraft flew through the plume about four minutes later before impacting too.",
+        "The impact was observed by telescopes on Earth as well as by lunar orbiters."
+      ],
+      "difficulty": "advanced",
+      "relatedArtifacts": [
+        "surveyor1",
+        "apollo11_easep"
+      ],
+      "quizQuestionIds": [
+        "quiz_lcross_001",
+        "quiz_lcross_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "LCROSS (Lunar Crater Observation and Sensing Satellite)",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/lcross/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "mars_sojourner",
+      "name": "Sojourner",
+      "category": "Mars Rover",
+      "destination": "Mars",
+      "mission": "Mars Pathfinder",
+      "agency": "NASA",
+      "deploymentDate": "1997-07-04",
+      "status": "inactive",
+      "communicationStatus": "Last contact 27 September 1997. The rover and lander stopped responding as the mission ended.",
+      "locationDescription": "Ares Vallis, Mars, near 19.13° N, 33.22° W.",
+      "missionObjective": [
+        "Demonstrate a low-cost way to land on Mars with airbags",
+        "Test a small rover on the Martian surface",
+        "Analyse rocks and soil with an alpha proton X-ray spectrometer",
+        "Return images of the lander, rover and surrounding terrain"
+      ],
+      "scientificDiscoveries": [
+        "Became the first wheeled rover to operate on another planet",
+        "Analyzed rocks such as 'Barnacle Bill' and 'Yogi', finding silica-rich compositions",
+        "Showed that small, inexpensive rovers could do useful planetary science"
+      ],
+      "historicalSignificance": "Sojourner was designed for seven sols and operated for about twelve weeks. Its success launched the modern era of Mars rovers and proved that airbag landings and small rovers work.",
+      "educationalSummary": "Sojourner was a microwave-oven-sized rover that only drove about 100 m, yet it changed planetary exploration by proving small robots could explore another world.",
+      "funFacts": [
+        "Sojourner weighed just 10.6 kg on Earth.",
+        "It was named in a student essay contest after Sojourner Truth.",
+        "The rover always stayed within about 10 m of the lander because they communicated directly with each other."
+      ],
+      "difficulty": "beginner",
+      "relatedArtifacts": [
+        "mars_spirit",
+        "mars_opportunity",
+        "mars_curiosity"
+      ],
+      "quizQuestionIds": [
+        "quiz_sojourner_001",
+        "quiz_sojourner_002",
+        "quiz_sojourner_003"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Mars Pathfinder",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "mars_viking1",
+      "name": "Viking 1 Lander",
+      "category": "Mars Lander",
+      "destination": "Mars",
+      "mission": "Viking 1",
+      "agency": "NASA",
+      "deploymentDate": "1976-07-20",
+      "status": "inactive",
+      "communicationStatus": "Last contact 13 November 1982, after the lander exceeded its planned lifetime.",
+      "locationDescription": "Chryse Planitia, Mars.",
+      "missionObjective": [
+        "Land safely on Mars and return the first surface images",
+        "Search for evidence of life with biology experiments",
+        "Measure the atmosphere, weather and soil chemistry"
+      ],
+      "scientificDiscoveries": [
+        "Returned the first successful pictures from the Martian surface",
+        "Found a dry, oxidising soil and a carbon-dioxide atmosphere",
+        "Biology experiments produced ambiguous results that scientists concluded did not demonstrate life"
+      ],
+      "historicalSignificance": "Viking 1 was the first spacecraft to land successfully on Mars and operate for years. Its lander and orbiter shaped everything that followed in Mars exploration.",
+      "educationalSummary": "Viking 1 was built to answer one of the biggest questions in science: is there life on Mars? It did not find life, but it taught us enormous amounts about the planet.",
+      "funFacts": [
+        "Viking 1's planned lifetime was 90 sols; it kept working for more than six years.",
+        "The famous 'Face on Mars' picture was taken by the Viking 1 orbiter, not the lander.",
+        "The landers were powered by radioisotope thermoelectric generators."
+      ],
+      "difficulty": "beginner",
+      "relatedArtifacts": [
+        "mars_sojourner",
+        "mars_insight"
+      ],
+      "quizQuestionIds": [
+        "quiz_viking_001",
+        "quiz_viking_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Viking 1",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/viking-1/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "mars_spirit",
+      "name": "Spirit (Mars Exploration Rover A)",
+      "category": "Mars Rover",
+      "destination": "Mars",
+      "mission": "Mars Exploration Rover",
+      "agency": "NASA",
+      "deploymentDate": "2004-01-04",
+      "status": "inactive",
+      "communicationStatus": "Last contact 22 March 2010. The rover became stuck in soft sand and could not orient its solar panels through the Martian winter.",
+      "locationDescription": "Gusev Crater, Mars, near 14.57° S, 175.47° E.",
+      "missionObjective": [
+        "Search for evidence of past water activity on Mars",
+        "Study the geology and atmosphere of Gusev Crater",
+        "Operate a mobile geology laboratory for at least 90 sols"
+      ],
+      "scientificDiscoveries": [
+        "Found silica-rich deposits that suggest ancient hydrothermal activity",
+        "Identified rocks altered by water and volcanic processes",
+        "Showed that dust devils can clean solar panels and extend a mission"
+      ],
+      "historicalSignificance": "Spirit and its twin Opportunity were designed for 90 sols. Spirit operated for more than six years and helped establish that Mars once had environments where liquid water was present.",
+      "educationalSummary": "Spirit was a golf-cart-sized geologist that climbed hills and examined rocks. Its long life showed how robust robotic explorers can be.",
+      "funFacts": [
+        "Spirit's solar panels were unexpectedly cleaned by a dust devil in 2005, boosting its power.",
+        "It climbed Husband Hill, a climb of about 106 m.",
+        "Its twin Opportunity landed three weeks later on the opposite side of Mars."
+      ],
+      "difficulty": "beginner",
+      "relatedArtifacts": [
+        "mars_opportunity",
+        "mars_sojourner",
+        "mars_curiosity"
+      ],
+      "quizQuestionIds": [
+        "quiz_spirit_001",
+        "quiz_spirit_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Mars Exploration Rover - Spirit",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/mer-spirit/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "mars_opportunity",
+      "name": "Opportunity (Mars Exploration Rover B)",
+      "category": "Mars Rover",
+      "destination": "Mars",
+      "mission": "Mars Exploration Rover",
+      "agency": "NASA",
+      "deploymentDate": "2004-01-25",
+      "status": "inactive",
+      "communicationStatus": "Last contact 10 June 2018, before a planet-wide dust storm blocked sunlight from its solar panels.",
+      "locationDescription": "Meridiani Planum, Mars.",
+      "missionObjective": [
+        "Search for evidence of past water on Mars",
+        "Study sedimentary rocks and crater geology",
+        "Operate for at least 90 sols"
+      ],
+      "scientificDiscoveries": [
+        "Found hematite-rich concretions nicknamed 'blueberries' that formed in water",
+        "Established that Meridiani Planum once held acidic, salty water",
+        "Drove more than 45 km, farther than any rover before it"
+      ],
+      "historicalSignificance": "Opportunity operated for nearly fifteen years and drove farther than a marathon. It produced some of the strongest early evidence that liquid water once flowed on Mars.",
+      "educationalSummary": "Opportunity turned a 90-day mission into a 15-year expedition. Its long traverse let scientists read the history of an ancient watery environment across many kilometres.",
+      "funFacts": [
+        "Opportunity's total drive of more than 45 km beat a marathon distance.",
+        "NASA declared the mission complete in February 2019 after hundreds of attempts to regain contact.",
+        "Its rock abrasion tool ground into rocks to expose fresh surfaces for analysis."
+      ],
+      "difficulty": "beginner",
+      "relatedArtifacts": [
+        "mars_spirit",
+        "mars_sojourner",
+        "mars_perseverance"
+      ],
+      "quizQuestionIds": [
+        "quiz_opportunity_001",
+        "quiz_opportunity_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Mars Exploration Rover - Opportunity",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/mer-opportunity/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "mars_phoenix",
+      "name": "Phoenix Lander",
+      "category": "Mars Lander",
+      "destination": "Mars",
+      "mission": "Phoenix",
+      "agency": "NASA",
+      "deploymentDate": "2008-05-25",
+      "status": "mission_complete",
+      "communicationStatus": "Last contact 2 November 2008. The lander lost power as winter darkness and dust covered its solar arrays.",
+      "locationDescription": "Vastitas Borealis, the Martian arctic region, near 68.22° N, 234.25° E.",
+      "missionObjective": [
+        "Search for water ice near the Martian north pole",
+        "Study the soil chemistry and habitability of the polar region",
+        "Monitor polar weather and atmospheric processes"
+      ],
+      "scientificDiscoveries": [
+        "Confirmed water ice just below the surface by scraping soil and watching ice sublimate",
+        "Detected perchlorate salts in the soil",
+        "Observed snow falling from clouds and measured a slightly alkaline soil",
+        "Found no evidence of liquid water at the site today"
+      ],
+      "historicalSignificance": "Phoenix was the first mission to touch Martian water ice. It landed farther north than any previous lander and showed that the arctic soil is chemically active and salty.",
+      "educationalSummary": "Phoenix dug into the Martian arctic and found ice right under the surface. Its results matter for understanding both past habitability and future resources.",
+      "funFacts": [
+        "Phoenix used a robotic arm to scrape away soil and expose bright ice.",
+        "Its name came from the spacecraft being rebuilt from spare parts of an earlier mission.",
+        "The mission was extended twice before the polar winter ended it."
+      ],
+      "difficulty": "intermediate",
+      "relatedArtifacts": [
+        "mars_insight",
+        "mars_viking1"
+      ],
+      "quizQuestionIds": [
+        "quiz_phoenix_001",
+        "quiz_phoenix_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Phoenix",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/phoenix/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "mars_insight",
+      "name": "InSight Lander",
+      "category": "Mars Lander",
+      "destination": "Mars",
+      "mission": "InSight",
+      "agency": "NASA",
+      "deploymentDate": "2018-11-26",
+      "status": "mission_complete",
+      "communicationStatus": "Mission declared complete on 21 December 2022 after dust on the solar panels reduced power below the level needed to operate.",
+      "locationDescription": "Elysium Planitia, Mars, near 4.5° N, 135.9° E.",
+      "missionObjective": [
+        "Study the interior structure of Mars",
+        "Measure seismic activity with a seismometer",
+        "Measure heat flow from the Martian interior",
+        "Track weather and magnetic fields at the landing site"
+      ],
+      "scientificDiscoveries": [
+        "Detected more than 1,300 marsquakes",
+        "Estimated the size and structure of Mars's core, mantle and crust",
+        "Confirmed that Mars is seismically active today",
+        "Showed that its heat-flow probe could not reach the planned depth"
+      ],
+      "historicalSignificance": "InSight was the first mission dedicated to the deep interior of another planet. Its seismometer turned Mars into a place where the planet's internal structure could be measured.",
+      "educationalSummary": "InSight listened to Mars. By studying how seismic waves travel through the planet, scientists worked out what Mars is made of and how it is layered inside.",
+      "funFacts": [
+        "Its seismometer was sensitive enough to detect wind and the lander's own moving parts.",
+        "Dust storms and accumulated dust ended the mission, not a mechanical failure.",
+        "The heat probe, nicknamed 'the mole', never managed to dig deep enough."
+      ],
+      "difficulty": "intermediate",
+      "relatedArtifacts": [
+        "mars_phoenix",
+        "mars_viking1"
+      ],
+      "quizQuestionIds": [
+        "quiz_insight_001",
+        "quiz_insight_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "InSight",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/insight/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "mars_ingenuity",
+      "name": "Ingenuity Mars Helicopter",
+      "category": "Mars Helicopter",
+      "destination": "Mars",
+      "mission": "Mars 2020",
+      "agency": "NASA",
+      "deploymentDate": "2021-04-19",
+      "status": "retired",
+      "communicationStatus": "The final flight on 18 January 2024 damaged a rotor blade. NASA ended the helicopter's mission on 25 January 2024.",
+      "locationDescription": "Jezero Crater, Mars, in the area nicknamed Wright Brothers Field.",
+      "missionObjective": [
+        "Demonstrate powered, controlled flight in the thin Martian atmosphere",
+        "Scout terrain and support the Perseverance rover's science planning",
+        "Test whether aerial vehicles can operate on Mars"
+      ],
+      "scientificDiscoveries": [
+        "Completed the first powered, controlled flight on another planet",
+        "Flew 72 times over almost three years",
+        "Proved that aerial scouting can support rover operations and terrain mapping"
+      ],
+      "historicalSignificance": "Ingenuity was a technology demonstration that became an operational scout. It carried a piece of fabric from the Wright brothers' 1903 Flyer, linking the first flight on Earth to the first on another world.",
+      "educationalSummary": "Flying on Mars is hard because the air is about 1% as thick as Earth's. Ingenuity's small blades had to spin very fast to stay aloft.",
+      "funFacts": [
+        "Its first flight lasted about 39 seconds and rose about 3 m.",
+        "It was carried to Mars folded under the Perseverance rover.",
+        "The helicopter weighed about 1.8 kg."
+      ],
+      "difficulty": "beginner",
+      "relatedArtifacts": [
+        "mars_perseverance",
+        "mars_curiosity"
+      ],
+      "quizQuestionIds": [
+        "quiz_ingenuity_001",
+        "quiz_ingenuity_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Ingenuity Mars Helicopter",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "mars_curiosity",
+      "name": "Curiosity Rover",
+      "category": "Mars Rover",
+      "destination": "Mars",
+      "mission": "Mars Science Laboratory",
+      "agency": "NASA",
+      "deploymentDate": "2012-08-06",
+      "status": "operational",
+      "communicationStatus": "Active. The rover is still operating and returning science data.",
+      "locationDescription": "Gale Crater, Mars, exploring the lower slopes of Mount Sharp (Aeolis Mons).",
+      "missionObjective": [
+        "Determine whether Mars ever had conditions suitable for microbial life",
+        "Study the geology and climate history of Gale Crater",
+        "Measure radiation and atmospheric conditions"
+      ],
+      "scientificDiscoveries": [
+        "Found evidence of an ancient freshwater lake in Gale Crater",
+        "Detected organic molecules in mudstone samples",
+        "Measured seasonal variations in atmospheric methane",
+        "Showed that early Mars had the chemistry needed for habitability"
+      ],
+      "historicalSignificance": "Curiosity's sky-crane landing introduced a new way to deliver heavy payloads to Mars. Its decade-plus mission has assembled a detailed picture of an ancient habitable environment.",
+      "educationalSummary": "Curiosity is a car-sized laboratory that drives around a crater reading the rock layers like pages in a history book.",
+      "funFacts": [
+        "Curiosity was lowered to the surface by a rocket-powered sky crane.",
+        "It carries a laser that vaporises small spots of rock so a spectrometer can read the glow.",
+        "Its plutonium power source lets it keep working through Martian winters and dust storms."
+      ],
+      "difficulty": "beginner",
+      "relatedArtifacts": [
+        "mars_perseverance",
+        "mars_spirit",
+        "mars_opportunity"
+      ],
+      "quizQuestionIds": [
+        "quiz_curiosity_001",
+        "quiz_curiosity_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Mars Science Laboratory - Curiosity",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/msl-curiosity/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "mars_perseverance",
+      "name": "Perseverance Rover",
+      "category": "Mars Rover",
+      "destination": "Mars",
+      "mission": "Mars 2020",
+      "agency": "NASA",
+      "deploymentDate": "2021-02-18",
+      "status": "operational",
+      "communicationStatus": "Active. The rover is exploring Jezero Crater and collecting samples.",
+      "locationDescription": "Jezero Crater, Mars, near 18.44° N, 77.45° E.",
+      "missionObjective": [
+        "Search for signs of ancient microbial life in Jezero Crater",
+        "Collect and cache rock and soil samples for a possible future return",
+        "Study the geology and climate history of an ancient lake basin",
+        "Demonstrate technologies for future human exploration"
+      ],
+      "scientificDiscoveries": [
+        "Confirmed that Jezero Crater once held a lake fed by a river delta",
+        "Collected multiple rock cores and sealed them in titanium tubes",
+        "Produced oxygen from Martian carbon dioxide with the MOXIE instrument",
+        "Recorded the first audio from the Martian surface"
+      ],
+      "historicalSignificance": "Perseverance is the first mission designed from the start to cache samples for a future return to Earth. Its work prepares the way for one of the most ambitious planetary science campaigns ever planned.",
+      "educationalSummary": "Perseverance is collecting pieces of Mars to bring home one day. Those samples could answer questions that rovers alone cannot.",
+      "funFacts": [
+        "MOXIE made oxygen from the Martian atmosphere, a test of technology astronauts may need.",
+        "The rover carries microphones, so we can hear Mars wind and equipment.",
+        "Ingenuity travelled to Mars attached to Perseverance's belly."
+      ],
+      "difficulty": "beginner",
+      "relatedArtifacts": [
+        "mars_ingenuity",
+        "mars_curiosity",
+        "mars_opportunity"
+      ],
+      "quizQuestionIds": [
+        "quiz_perseverance_001",
+        "quiz_perseverance_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Mars 2020 - Perseverance",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "pioneer10",
+      "name": "Pioneer 10",
+      "category": "Deep Space Probe",
+      "destination": "Deep Space",
+      "mission": "Pioneer Program",
+      "agency": "NASA",
+      "deploymentDate": "1972-03-02",
+      "status": "inactive",
+      "communicationStatus": "Last contact 23 January 2003. Its radioisotope power source had decayed too far to transmit.",
+      "locationDescription": "In interstellar space, heading toward the constellation Taurus. It will pass near the star Aldebaran in roughly two million years.",
+      "missionObjective": [
+        "Pioneer the route through the asteroid belt to Jupiter",
+        "Study Jupiter's radiation belts, atmosphere and magnetic field",
+        "Test communications across enormous distances"
+      ],
+      "scientificDiscoveries": [
+        "First spacecraft to cross the asteroid belt",
+        "First spacecraft to fly past Jupiter and return close-up images",
+        "Measured Jupiter's intense radiation environment",
+        "Became one of the first objects to reach solar escape velocity"
+      ],
+      "historicalSignificance": "Pioneer 10 proved that spacecraft could survive the asteroid belt and fly past a giant planet. It carried a plaque designed to describe its makers to any future finder.",
+      "educationalSummary": "Pioneer 10 is a derelict probe leaving the solar system. It was silenced by the slow decay of its power source, not by any single failure.",
+      "funFacts": [
+        "The spacecraft carries a gold-anodised plaque showing a man, a woman and Earth's location.",
+        "Its final signal came from roughly 12 billion km away.",
+        "Pioneer 10 and 11 are sometimes called the first interstellar probes, although they are not yet near another star."
+      ],
+      "difficulty": "advanced",
+      "relatedArtifacts": [
+        "pioneer11",
+        "voyager1",
+        "voyager2"
+      ],
+      "quizQuestionIds": [
+        "quiz_pioneer10_001",
+        "quiz_pioneer10_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Pioneer 10",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/pioneer-10/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "pioneer11",
+      "name": "Pioneer 11",
+      "category": "Deep Space Probe",
+      "destination": "Deep Space",
+      "mission": "Pioneer Program",
+      "agency": "NASA",
+      "deploymentDate": "1973-04-05",
+      "status": "inactive",
+      "communicationStatus": "Last contact in 1995. The probe's power source and distance ended communications.",
+      "locationDescription": "In interstellar space, heading toward the constellation Aquila.",
+      "missionObjective": [
+        "Fly past Jupiter and use its gravity to reach Saturn",
+        "Study Jupiter's polar regions",
+        "Return the first close-up observations of Saturn"
+      ],
+      "scientificDiscoveries": [
+        "First spacecraft to fly past Saturn",
+        "Returned the first close views of Saturn's rings and moons",
+        "Measured Jupiter's polar regions and magnetic field"
+      ],
+      "historicalSignificance": "Pioneer 11 was the first spacecraft to visit Saturn and the first to use a gravity assist at Jupiter to reach another planet. It paved the way for the Voyager Grand Tour.",
+      "educationalSummary": "Pioneer 11 showed how a planet's gravity can be used as a slingshot. That technique is now standard for deep-space missions.",
+      "funFacts": [
+        "It crossed Saturn's ring plane at high speed.",
+        "Like Pioneer 10, it carries a plaque describing its origin."
+      ],
+      "difficulty": "advanced",
+      "relatedArtifacts": [
+        "pioneer10",
+        "voyager1",
+        "cassini"
+      ],
+      "quizQuestionIds": [
+        "quiz_pioneer11_001"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Pioneer 11",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/pioneer-11/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "voyager1",
+      "name": "Voyager 1",
+      "category": "Interstellar Probe",
+      "destination": "Deep Space",
+      "mission": "Voyager Program",
+      "agency": "NASA",
+      "deploymentDate": "1977-09-05",
+      "status": "operational",
+      "communicationStatus": "Active. The spacecraft still returns data, although instruments have been switched off as power declines.",
+      "locationDescription": "Interstellar space, beyond the heliopause since 25 August 2012. It is the farthest human-made object from Earth.",
+      "missionObjective": [
+        "Study Jupiter and Saturn during the planetary Grand Tour",
+        "Explore the outer heliosphere and interstellar medium",
+        "Carry the Golden Record as a message from Earth"
+      ],
+      "scientificDiscoveries": [
+        "Revealed active volcanoes on Jupiter's moon Io",
+        "Studied Saturn's rings and the atmosphere of Titan",
+        "Crossed into interstellar space and measured the interstellar medium",
+        "Returned data for more than four decades"
+      ],
+      "historicalSignificance": "Voyager 1 is the most distant object built by humans. Its Golden Record makes it a cultural as well as a scientific artifact.",
+      "educationalSummary": "Voyager 1 left the Sun's bubble of influence and is now travelling between the stars. Its signals take more than twenty hours to reach Earth.",
+      "funFacts": [
+        "The Golden Record carries sounds and images of Earth, including greetings in many languages.",
+        "Its power comes from radioisotope thermoelectric generators that lose output every year.",
+        "Voyager 1 overtook Pioneer 10 in 1998 to become the farthest human-made object."
+      ],
+      "difficulty": "advanced",
+      "relatedArtifacts": [
+        "voyager2",
+        "pioneer10",
+        "new_horizons"
+      ],
+      "quizQuestionIds": [
+        "quiz_voyager1_001",
+        "quiz_voyager1_002",
+        "quiz_voyager1_003"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Voyager",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/voyager/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "voyager2",
+      "name": "Voyager 2",
+      "category": "Interstellar Probe",
+      "destination": "Deep Space",
+      "mission": "Voyager Program",
+      "agency": "NASA",
+      "deploymentDate": "1977-08-20",
+      "status": "operational",
+      "communicationStatus": "Active, with a reduced instrument set as power declines.",
+      "locationDescription": "Interstellar space, beyond the heliopause since 5 November 2018.",
+      "missionObjective": [
+        "Study the outer planets during the Grand Tour",
+        "Visit Uranus and Neptune",
+        "Explore the heliosphere and interstellar medium"
+      ],
+      "scientificDiscoveries": [
+        "Only spacecraft to visit Uranus and Neptune",
+        "Discovered Uranus's tilted magnetic field and unusual moons",
+        "Observed Neptune's Great Dark Spot and geysers on Triton",
+        "Crossed into interstellar space in 2018"
+      ],
+      "historicalSignificance": "Voyager 2 completed the only tour of all four giant planets. Half a century later it is still returning measurements from beyond the heliosphere.",
+      "educationalSummary": "Voyager 2 is the only machine that has flown past Uranus and Neptune. Everything we know from close range about those planets comes from this one visit.",
+      "funFacts": [
+        "Voyager 2 launched before Voyager 1, but arrived at Jupiter later.",
+        "Its trajectory used a rare planetary alignment that occurs about once every 175 years.",
+        "It carries the same Golden Record as Voyager 1."
+      ],
+      "difficulty": "advanced",
+      "relatedArtifacts": [
+        "voyager1",
+        "pioneer11",
+        "new_horizons"
+      ],
+      "quizQuestionIds": [
+        "quiz_voyager2_001",
+        "quiz_voyager2_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Voyager",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/voyager/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "new_horizons",
+      "name": "New Horizons",
+      "category": "Deep Space Probe",
+      "destination": "Deep Space",
+      "mission": "New Horizons",
+      "agency": "NASA",
+      "deploymentDate": "2006-01-19",
+      "status": "operational",
+      "communicationStatus": "Active. The spacecraft is operating in an extended mission in the Kuiper Belt.",
+      "locationDescription": "Outer solar system, in the Kuiper Belt beyond Pluto.",
+      "missionObjective": [
+        "Fly past Pluto and its moons",
+        "Study Kuiper Belt objects",
+        "Characterise the outer solar system environment"
+      ],
+      "scientificDiscoveries": [
+        "Revealed Pluto's heart-shaped nitrogen-ice plain, Sputnik Planitia",
+        "Found water-ice mountains and a layered atmosphere at Pluto",
+        "Returned the first close images of a Kuiper Belt object, Arrokoth, a contact binary",
+        "Measured the Kuiper Belt dust environment"
+      ],
+      "historicalSignificance": "New Horizons completed the first reconnaissance of Pluto and the Kuiper Belt. It showed that small icy worlds can be geologically active.",
+      "educationalSummary": "New Horizons flew past Pluto at more than 49,000 km/h and then continued deeper into the Kuiper Belt. Its images turned a fuzzy dot into a real world.",
+      "funFacts": [
+        "It was the fastest spacecraft launched at the time, leaving Earth at about 16 km/s.",
+        "It carries some of the ashes of Pluto's discoverer, Clyde Tombaugh.",
+        "Its flyby of Pluto lasted only hours, but the data took more than a year to arrive."
+      ],
+      "difficulty": "intermediate",
+      "relatedArtifacts": [
+        "voyager1",
+        "voyager2",
+        "cassini"
+      ],
+      "quizQuestionIds": [
+        "quiz_newhorizons_001",
+        "quiz_newhorizons_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "New Horizons",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/new-horizons/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "cassini",
+      "name": "Cassini Orbiter",
+      "category": "Orbiter",
+      "destination": "Deep Space",
+      "mission": "Cassini-Huygens",
+      "agency": "NASA",
+      "deploymentDate": "1997-10-15",
+      "status": "destroyed",
+      "communicationStatus": "None. Cassini was deliberately destroyed in Saturn's atmosphere on 15 September 2017.",
+      "locationDescription": "Destroyed in Saturn's atmosphere at the end of the Grand Finale.",
+      "missionObjective": [
+        "Orbit Saturn and study the planet, rings and moons",
+        "Carry the Huygens probe to Titan",
+        "Investigate the potential habitability of Saturn's moons"
+      ],
+      "scientificDiscoveries": [
+        "Discovered water-vapour geysers and organic material at Enceladus",
+        "Mapped lakes and seas of liquid methane and ethane on Titan",
+        "Revealed detailed structure in Saturn's rings",
+        "Delivered the Huygens probe, which landed on Titan in January 2005"
+      ],
+      "historicalSignificance": "Cassini spent thirteen years at Saturn and transformed our understanding of the Saturn system. It was deliberately destroyed to protect moons that might support life from contamination.",
+      "educationalSummary": "Cassini is gone, but its data is still being analysed. Its deliberate destruction is an example of planetary protection: keeping possible habitats pristine.",
+      "funFacts": [
+        "Huygens landed on Titan, the most distant landing ever achieved.",
+        "Cassini's Grand Finale sent it between Saturn and its rings before the final plunge.",
+        "Enceladus sprays water from a subsurface ocean into space."
+      ],
+      "difficulty": "intermediate",
+      "relatedArtifacts": [
+        "voyager2",
+        "new_horizons",
+        "pioneer11"
+      ],
+      "quizQuestionIds": [
+        "quiz_cassini_001",
+        "quiz_cassini_002",
+        "quiz_cassini_003"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Cassini",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/cassini/",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "mariner4",
+      "name": "Mariner 4",
+      "category": "Deep Space Probe",
+      "destination": "Deep Space",
+      "mission": "Mariner Program",
+      "agency": "NASA",
+      "deploymentDate": "1964-11-28",
+      "status": "inactive",
+      "communicationStatus": "Last contact 21 December 1967. The spacecraft remains in a heliocentric orbit.",
+      "locationDescription": "Solar orbit, passing through the inner solar system.",
+      "missionObjective": [
+        "Perform the first successful flyby of Mars",
+        "Return close-up images of the Martian surface",
+        "Measure the Martian atmosphere and magnetic environment"
+      ],
+      "scientificDiscoveries": [
+        "Returned the first close-up photographs of Mars",
+        "Showed a cratered, dry surface rather than a canal-covered world",
+        "Found a thin carbon-dioxide atmosphere",
+        "Found no global magnetic field"
+      ],
+      "historicalSignificance": "Mariner 4 produced the first images of another planet taken from deep space. Its pictures overturned popular ideas about Mars and opened the era of planetary reconnaissance.",
+      "educationalSummary": "Mariner 4's 21 photographs changed what people thought Mars was like. It is a reminder that real data can overturn a confident imagination.",
+      "funFacts": [
+        "Its camera stored images on tape and transmitted them slowly over days.",
+        "The mission's images covered only a small fraction of the planet.",
+        "Mariner 4 was one of the first spacecraft to survive a long cruise and return data."
+      ],
+      "difficulty": "advanced",
+      "relatedArtifacts": [
+        "mars_viking1",
+        "pioneer10"
+      ],
+      "quizQuestionIds": [
+        "quiz_mariner4_001",
+        "quiz_mariner4_002"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "title": "Mariner 4",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/mariner-4/",
+          "type": "primary"
+        }
+      ]
+    }
+  ]
+}
