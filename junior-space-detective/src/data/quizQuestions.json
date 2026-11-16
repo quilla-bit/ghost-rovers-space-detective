@@ -1,0 +1,693 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "quiz_apollo11_001",
+      "artifactId": "apollo11_lm_eagle",
+      "question": "Which part of Apollo 11's Lunar Module stayed on the Moon?",
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "options": ["The ascent stage", "The descent stage", "Both stages", "The service module"],
+      "correctAnswer": "The descent stage",
+      "explanation": "The descent stage held the landing engine and legs. It was left behind and used as the launch pad for the ascent stage.",
+      "points": 10
+    },
+    {
+      "id": "quiz_apollo11_002",
+      "artifactId": "apollo11_lm_eagle",
+      "question": "Apollo 11 landed in which lunar region?",
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "options": ["Taurus-Littrow", "Mare Tranquillitatis", "Hadley Rille", "Cabeus crater"],
+      "correctAnswer": "Mare Tranquillitatis",
+      "explanation": "Mare Tranquillitatis, the Sea of Tranquility, was the Apollo 11 landing site.",
+      "points": 10
+    },
+    {
+      "id": "quiz_apollo11_003",
+      "artifactId": "apollo11_lm_eagle",
+      "question": "About how much lunar material did Apollo 11 return to Earth?",
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "options": ["About 2 kg", "About 21.5 kg", "About 100 kg", "About 500 kg"],
+      "correctAnswer": "About 21.5 kg",
+      "explanation": "The crew brought back roughly 21.5 kg of rock and soil for laboratory study.",
+      "points": 20
+    },
+    {
+      "id": "quiz_easep_001",
+      "artifactId": "apollo11_easep",
+      "question": "What still works on the Apollo 11 EASEP today?",
+      "type": "scientific_discovery",
+      "difficulty": "intermediate",
+      "options": [
+        "The seismometer",
+        "The laser retro-reflector",
+        "The television camera",
+        "Nothing at all"
+      ],
+      "correctAnswer": "The laser retro-reflector",
+      "explanation": "The retro-reflector has no electronics. It still bounces laser pulses back to Earth, while the seismometer failed in 1969.",
+      "points": 20
+    },
+    {
+      "id": "quiz_easep_002",
+      "artifactId": "apollo11_easep",
+      "question": "The Apollo 11 passive seismometer recorded the first seismic data from another world.",
+      "type": "true_false",
+      "difficulty": "beginner",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "It was the first seismometer to operate on another world, although it stopped working within weeks.",
+      "points": 10
+    },
+    {
+      "id": "quiz_apollo12_001",
+      "artifactId": "apollo12_lm_intrepid",
+      "question": "Which earlier spacecraft did the Apollo 12 crew visit on the Moon?",
+      "type": "artifact_identification",
+      "difficulty": "intermediate",
+      "options": ["Surveyor 1", "Surveyor 3", "Luna 9", "Ranger 7"],
+      "correctAnswer": "Surveyor 3",
+      "explanation": "Apollo 12 landed about 155 m from Surveyor 3, which had arrived in 1967.",
+      "points": 20
+    },
+    {
+      "id": "quiz_apollo12_002",
+      "artifactId": "apollo12_lm_intrepid",
+      "question": "Why did Apollo 12 bring parts of Surveyor 3 back to Earth?",
+      "type": "mission_knowledge",
+      "difficulty": "intermediate",
+      "options": [
+        "To reuse them on later missions",
+        "To study how materials aged on the Moon",
+        "To display them in a museum only",
+        "To return them to their manufacturer"
+      ],
+      "correctAnswer": "To study how materials aged on the Moon",
+      "explanation": "Engineers examined the returned hardware to learn how spacecraft materials survive the lunar environment.",
+      "points": 20
+    },
+    {
+      "id": "quiz_lrv_001",
+      "artifactId": "apollo15_lrv",
+      "question": "Which Apollo mission first used the Lunar Roving Vehicle?",
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "options": ["Apollo 11", "Apollo 12", "Apollo 15", "Apollo 17"],
+      "correctAnswer": "Apollo 15",
+      "explanation": "Apollo 15 introduced the rover in 1971, greatly extending the crew's exploration range.",
+      "points": 10
+    },
+    {
+      "id": "quiz_lrv_002",
+      "artifactId": "apollo15_lrv",
+      "question": "How many Lunar Roving Vehicles remain on the Moon?",
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "options": ["One", "Two", "Three", "None"],
+      "correctAnswer": "Three",
+      "explanation": "Apollo 15, 16 and 17 each left a rover on the Moon. No human has driven there since 1972.",
+      "points": 20
+    },
+    {
+      "id": "quiz_lrv_003",
+      "artifactId": "apollo15_lrv",
+      "question": "The Apollo rover could be folded up for launch and then driven on the Moon.",
+      "type": "true_false",
+      "difficulty": "beginner",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "The rover folded into a compact package and was unfolded on the surface by the astronauts.",
+      "points": 10
+    },
+    {
+      "id": "quiz_lrrr_001",
+      "artifactId": "apollo15_lrrr",
+      "question": "What does a lunar laser retro-reflector do?",
+      "type": "scientific_discovery",
+      "difficulty": "intermediate",
+      "options": [
+        "It measures moonquakes",
+        "It bounces laser light back to Earth",
+        "It takes photographs of Earth",
+        "It generates electricity from sunlight"
+      ],
+      "correctAnswer": "It bounces laser light back to Earth",
+      "explanation": "Corner-cube prisms return a laser pulse to its source, letting stations measure the Earth-Moon distance.",
+      "points": 20
+    },
+    {
+      "id": "quiz_lrrr_002",
+      "artifactId": "apollo15_lrrr",
+      "question": "What have laser ranging measurements shown about the Moon?",
+      "type": "scientific_discovery",
+      "difficulty": "advanced",
+      "options": [
+        "It is slowly moving away from Earth",
+        "It is slowly moving closer to Earth",
+        "Its distance never changes",
+        "It has stopped orbiting Earth"
+      ],
+      "correctAnswer": "It is slowly moving away from Earth",
+      "explanation": "The Moon recedes by about 3.8 cm per year, a value refined by retro-reflector measurements.",
+      "points": 30
+    },
+    {
+      "id": "quiz_apollo17_001",
+      "artifactId": "apollo17_lm_challenger",
+      "question": "What unusual material did Apollo 17 astronauts find at Shorty crater?",
+      "type": "scientific_discovery",
+      "difficulty": "beginner",
+      "options": ["Orange soil made of volcanic glass", "Liquid water", "Fossil shells", "Iron meteorites"],
+      "correctAnswer": "Orange soil made of volcanic glass",
+      "explanation": "The orange soil was made of tiny volcanic glass beads, evidence of explosive eruptions long ago.",
+      "points": 10
+    },
+    {
+      "id": "quiz_apollo17_002",
+      "artifactId": "apollo17_lm_challenger",
+      "question": "Apollo 17 was the last crewed mission to land on the Moon.",
+      "type": "true_false",
+      "difficulty": "beginner",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "Apollo 17 landed in December 1972. No crewed mission has landed on the Moon since.",
+      "points": 10
+    },
+    {
+      "id": "quiz_surveyor1_001",
+      "artifactId": "surveyor1",
+      "question": "What important question did Surveyor 1 help answer?",
+      "type": "mission_knowledge",
+      "difficulty": "intermediate",
+      "options": [
+        "Whether the Moon had an atmosphere",
+        "Whether the surface could support a landed spacecraft",
+        "Whether the Moon orbited Earth",
+        "Whether the Moon had volcanoes"
+      ],
+      "correctAnswer": "Whether the surface could support a landed spacecraft",
+      "explanation": "Surveyor 1 showed the surface was firm enough for Apollo landers, reducing the risk of sinking into dust.",
+      "points": 20
+    },
+    {
+      "id": "quiz_surveyor1_002",
+      "artifactId": "surveyor1",
+      "question": "Which agency built and operated Surveyor 1?",
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "options": ["NASA", "ESA", "Roscosmos", "JAXA"],
+      "correctAnswer": "NASA",
+      "explanation": "Surveyor 1 was a NASA mission and the first American spacecraft to soft-land on the Moon.",
+      "points": 10
+    },
+    {
+      "id": "quiz_surveyor3_001",
+      "artifactId": "surveyor3",
+      "question": "Why is Surveyor 3 special among lunar spacecraft?",
+      "type": "mission_knowledge",
+      "difficulty": "advanced",
+      "options": [
+        "It was the first spacecraft to orbit the Moon",
+        "It is the only spacecraft on another world that humans have visited and sampled",
+        "It carried the first astronauts",
+        "It is still transmitting today"
+      ],
+      "correctAnswer": "It is the only spacecraft on another world that humans have visited and sampled",
+      "explanation": "Apollo 12 astronauts walked to Surveyor 3 and brought about 10 kg of its hardware back to Earth.",
+      "points": 30
+    },
+    {
+      "id": "quiz_lcross_001",
+      "artifactId": "lcross_centaur",
+      "question": "What did LCROSS discover by crashing into a lunar polar crater?",
+      "type": "scientific_discovery",
+      "difficulty": "intermediate",
+      "options": ["Water ice", "Liquid mercury", "Active volcanoes", "A magnetic field"],
+      "correctAnswer": "Water ice",
+      "explanation": "The impact plume contained water, confirming that permanently shadowed polar craters store water ice.",
+      "points": 20
+    },
+    {
+      "id": "quiz_lcross_002",
+      "artifactId": "lcross_centaur",
+      "question": "The LCROSS impact was a deliberate crash.",
+      "type": "true_false",
+      "difficulty": "beginner",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "A spent Centaur stage hit Cabeus crater on purpose so its debris plume could be studied.",
+      "points": 10
+    },
+    {
+      "id": "quiz_sojourner_001",
+      "artifactId": "mars_sojourner",
+      "question": "Which planet did Sojourner explore?",
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "options": ["Venus", "Mars", "Jupiter", "Mercury"],
+      "correctAnswer": "Mars",
+      "explanation": "Sojourner explored Mars as part of the Mars Pathfinder mission in 1997.",
+      "points": 10
+    },
+    {
+      "id": "quiz_sojourner_002",
+      "artifactId": "mars_sojourner",
+      "question": "How long was Sojourner designed to operate?",
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "options": ["7 sols", "90 sols", "2 years", "10 years"],
+      "correctAnswer": "7 sols",
+      "explanation": "It was designed for about 7 sols but operated for roughly twelve weeks.",
+      "points": 20
+    },
+    {
+      "id": "quiz_sojourner_003",
+      "artifactId": "mars_sojourner",
+      "question": "Sojourner was the first wheeled rover to operate on another planet.",
+      "type": "true_false",
+      "difficulty": "beginner",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "explanation": "It was the first wheeled rover on another world, arriving with Mars Pathfinder in 1997.",
+      "points": 10
+    },
+    {
+      "id": "quiz_viking_001",
+      "artifactId": "mars_viking1",
+      "question": "What was Viking 1 the first spacecraft to achieve?",
+      "type": "mission_knowledge",
+      "difficulty": "beginner",
+      "options": [
+        "Fly past Mars",
+        "Land successfully on Mars",
+        "Orbit Jupiter",
+        "Land on the Moon"
+      ],
+      "correctAnswer": "Land successfully on Mars",
+      "explanation": "Viking 1 made the first successful Mars landing in 1976 and returned pictures from the surface.",
+      "points": 10
+    },
+    {
+      "id": "quiz_viking_002",
+      "artifactId": "mars_viking1",
+      "question": "Did Viking 1's biology experiments prove that life exists on Mars?",
+      "type": "scientific_discovery",
+      "difficulty": "advanced",
+      "options": [
+        "Yes, they found microbes",
+        "No, the results were ambiguous and did not demonstrate life",
+        "Yes, they found fossils",
+        "The experiments never ran"
+      ],
+      "correctAnswer": "No, the results were ambiguous and did not demonstrate life",
+      "explanation": "The biology experiments gave puzzling results that were later attributed to reactive soil chemistry, not life.",
+      "points": 30
+    },
+    {
+      "id": "quiz_spirit_001",
+      "artifactId": "mars_spirit",
+      "question": "Where did Spirit land in 2004?",
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "options": ["Gusev Crater", "Gale Crater", "Jezero Crater", "Meridiani Planum"],
+      "correctAnswer": "Gusev Crater",
+      "explanation": "Spirit landed in Gusev Crater, a large impact basin.",
+      "points": 10
+    },
+    {
+      "id": "quiz_spirit_002",
+      "artifactId": "mars_spirit",
+      "question": "What ended Spirit's mission?",
+      "type": "mission_knowledge",
+      "difficulty": "intermediate",
+      "options": [
+        "It became stuck in soft sand and could not get enough power through winter",
+        "It was destroyed by a meteorite",
+        "Its radio failed on landing",
+        "It was deliberately powered down after 90 days"
+      ],
+      "correctAnswer": "It became stuck in soft sand and could not get enough power through winter",
+      "explanation": "Spirit became embedded in soil at Troy and could not tilt its solar panels toward the winter Sun.",
+      "points": 20
+    },
+    {
+      "id": "quiz_opportunity_001",
+      "artifactId": "mars_opportunity",
+      "question": "How far did Opportunity drive across Mars?",
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "options": ["About 1 km", "About 10 km", "More than 45 km", "More than 500 km"],
+      "correctAnswer": "More than 45 km",
+      "explanation": "Opportunity drove farther than a marathon distance, more than 45 km in total.",
+      "points": 20
+    },
+    {
+      "id": "quiz_opportunity_002",
+      "artifactId": "mars_opportunity",
+      "question": "What are the 'blueberries' found by Opportunity?",
+      "type": "scientific_discovery",
+      "difficulty": "advanced",
+      "options": [
+        "Frozen water droplets",
+        "Iron-rich concretions that formed in water",
+        "Blue crystals of quartz",
+        "Tiny meteorites"
+      ],
+      "correctAnswer": "Iron-rich concretions that formed in water",
+      "explanation": "The hematite-rich concretions formed in water-bearing sediments, evidence of ancient liquid water.",
+      "points": 30
+    },
+    {
+      "id": "quiz_phoenix_001",
+      "artifactId": "mars_phoenix",
+      "question": "What did Phoenix confirm just below the Martian surface?",
+      "type": "scientific_discovery",
+      "difficulty": "intermediate",
+      "options": ["Water ice", "Liquid water", "Fossil microbes", "A cave system"],
+      "correctAnswer": "Water ice",
+      "explanation": "Phoenix scraped the soil and exposed ice that turned to vapour, confirming subsurface water ice.",
+      "points": 20
+    },
+    {
+      "id": "quiz_phoenix_002",
+      "artifactId": "mars_phoenix",
+      "question": "What chemical compound in the soil did Phoenix detect?",
+      "type": "scientific_discovery",
+      "difficulty": "advanced",
+      "options": ["Perchlorate", "Table salt", "Graphite", "Ammonia ice"],
+      "correctAnswer": "Perchlorate",
+      "explanation": "Perchlorate salts were found in the soil, which matters for soil chemistry and future use of resources.",
+      "points": 30
+    },
+    {
+      "id": "quiz_insight_001",
+      "artifactId": "mars_insight",
+      "question": "What was InSight's main scientific instrument?",
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "options": ["A microscope", "A seismometer", "A drill for fossils", "A telescope"],
+      "correctAnswer": "A seismometer",
+      "explanation": "InSight's seismometer recorded marsquakes and revealed the planet's interior structure.",
+      "points": 10
+    },
+    {
+      "id": "quiz_insight_002",
+      "artifactId": "mars_insight",
+      "question": "Why did InSight's mission end?",
+      "type": "mission_knowledge",
+      "difficulty": "intermediate",
+      "options": [
+        "Dust on the solar panels reduced its power",
+        "It drove off a cliff",
+        "Its antenna was hit by a meteorite",
+        "It ran out of scientific targets"
+      ],
+      "correctAnswer": "Dust on the solar panels reduced its power",
+      "explanation": "Accumulated dust cut the power available, and the lander could no longer operate.",
+      "points": 20
+    },
+    {
+      "id": "quiz_ingenuity_001",
+      "artifactId": "mars_ingenuity",
+      "question": "What did Ingenuity achieve in April 2021?",
+      "type": "mission_knowledge",
+      "difficulty": "beginner",
+      "options": [
+        "The first powered, controlled flight on another planet",
+        "The first landing on Mars",
+        "The first sample return from Mars",
+        "The first drive across Mars"
+      ],
+      "correctAnswer": "The first powered, controlled flight on another planet",
+      "explanation": "Ingenuity flew in the thin Martian atmosphere, a first for powered flight beyond Earth.",
+      "points": 10
+    },
+    {
+      "id": "quiz_ingenuity_002",
+      "artifactId": "mars_ingenuity",
+      "question": "How many flights did Ingenuity complete?",
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "options": ["5", "20", "72", "150"],
+      "correctAnswer": "72",
+      "explanation": "Ingenuity flew 72 times before rotor damage ended the mission in January 2024.",
+      "points": 20
+    },
+    {
+      "id": "quiz_curiosity_001",
+      "artifactId": "mars_curiosity",
+      "question": "Where is Curiosity exploring?",
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "options": ["Jezero Crater", "Gale Crater", "Gusev Crater", "Meridiani Planum"],
+      "correctAnswer": "Gale Crater",
+      "explanation": "Curiosity landed in Gale Crater in 2012 and has been studying Mount Sharp inside it.",
+      "points": 10
+    },
+    {
+      "id": "quiz_curiosity_002",
+      "artifactId": "mars_curiosity",
+      "question": "What did Curiosity find evidence of in Gale Crater?",
+      "type": "scientific_discovery",
+      "difficulty": "intermediate",
+      "options": [
+        "An ancient freshwater lake",
+        "A frozen ocean",
+        "Active volcanoes",
+        "A subsurface city"
+      ],
+      "correctAnswer": "An ancient freshwater lake",
+      "explanation": "Sedimentary rocks showed that Gale Crater once held a lake, with chemistry suitable for microbial life.",
+      "points": 20
+    },
+    {
+      "id": "quiz_perseverance_001",
+      "artifactId": "mars_perseverance",
+      "question": "What is Perseverance collecting in Jezero Crater?",
+      "type": "mission_knowledge",
+      "difficulty": "beginner",
+      "options": [
+        "Rock and soil samples for a possible return to Earth",
+        "Samples of the Martian atmosphere only",
+        "Pictures of Earth",
+        "Old spacecraft parts"
+      ],
+      "correctAnswer": "Rock and soil samples for a possible return to Earth",
+      "explanation": "Perseverance seals rock cores in titanium tubes so they could be returned by a future mission.",
+      "points": 10
+    },
+    {
+      "id": "quiz_perseverance_002",
+      "artifactId": "mars_perseverance",
+      "question": "What did the MOXIE instrument on Perseverance do?",
+      "type": "scientific_discovery",
+      "difficulty": "intermediate",
+      "options": [
+        "Made oxygen from carbon dioxide",
+        "Made water from ice",
+        "Grew plants",
+        "Measured gravity"
+      ],
+      "correctAnswer": "Made oxygen from carbon dioxide",
+      "explanation": "MOXIE demonstrated that oxygen can be produced from the Martian atmosphere, which could help future astronauts.",
+      "points": 20
+    },
+    {
+      "id": "quiz_pioneer10_001",
+      "artifactId": "pioneer10",
+      "question": "What was Pioneer 10 the first spacecraft to do?",
+      "type": "mission_knowledge",
+      "difficulty": "intermediate",
+      "options": [
+        "Cross the asteroid belt",
+        "Land on Mars",
+        "Orbit Saturn",
+        "Visit Pluto"
+      ],
+      "correctAnswer": "Cross the asteroid belt",
+      "explanation": "Pioneer 10 was the first spacecraft to cross the asteroid belt and the first to fly past Jupiter.",
+      "points": 20
+    },
+    {
+      "id": "quiz_pioneer10_002",
+      "artifactId": "pioneer10",
+      "question": "Why did Pioneer 10 stop transmitting?",
+      "type": "mission_knowledge",
+      "difficulty": "advanced",
+      "options": [
+        "Its radioisotope power source decayed",
+        "It was hit by an asteroid",
+        "Its antenna was pointed the wrong way",
+        "NASA deleted its software"
+      ],
+      "correctAnswer": "Its radioisotope power source decayed",
+      "explanation": "The generators produced less and less electricity until the transmitter could no longer operate.",
+      "points": 30
+    },
+    {
+      "id": "quiz_pioneer11_001",
+      "artifactId": "pioneer11",
+      "question": "Which planet did Pioneer 11 visit first, before Saturn?",
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "options": ["Jupiter", "Neptune", "Venus", "Uranus"],
+      "correctAnswer": "Jupiter",
+      "explanation": "Pioneer 11 used Jupiter's gravity to reach Saturn, arriving in 1979.",
+      "points": 10
+    },
+    {
+      "id": "quiz_voyager1_001",
+      "artifactId": "voyager1",
+      "question": "What did Voyager 1 discover on Jupiter's moon Io?",
+      "type": "scientific_discovery",
+      "difficulty": "intermediate",
+      "options": ["Active volcanoes", "Liquid oceans", "A thick atmosphere", "Ring system"],
+      "correctAnswer": "Active volcanoes",
+      "explanation": "Voyager 1 found active volcanoes on Io, the first known volcanism beyond Earth.",
+      "points": 20
+    },
+    {
+      "id": "quiz_voyager1_002",
+      "artifactId": "voyager1",
+      "question": "When did Voyager 1 enter interstellar space?",
+      "type": "mission_knowledge",
+      "difficulty": "advanced",
+      "options": ["1990", "2003", "2012", "2018"],
+      "correctAnswer": "2012",
+      "explanation": "Voyager 1 crossed the heliopause in August 2012 and entered interstellar space.",
+      "points": 30
+    },
+    {
+      "id": "quiz_voyager1_003",
+      "artifactId": "voyager1",
+      "question": "What does Voyager 1 carry for any future finder?",
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "options": ["A Golden Record", "A metal flag", "A clock", "A telescope"],
+      "correctAnswer": "A Golden Record",
+      "explanation": "The Golden Record contains sounds and images of Earth, including music and greetings.",
+      "points": 10
+    },
+    {
+      "id": "quiz_voyager2_001",
+      "artifactId": "voyager2",
+      "question": "Which two planets did only Voyager 2 visit?",
+      "type": "mission_knowledge",
+      "difficulty": "intermediate",
+      "options": ["Jupiter and Saturn", "Uranus and Neptune", "Mars and Venus", "Pluto and Ceres"],
+      "correctAnswer": "Uranus and Neptune",
+      "explanation": "Voyager 2 is the only spacecraft to have flown past Uranus and Neptune.",
+      "points": 20
+    },
+    {
+      "id": "quiz_voyager2_002",
+      "artifactId": "voyager2",
+      "question": "Which Voyager launched first?",
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "options": ["Voyager 1", "Voyager 2", "They launched together", "Neither carried a launch date"],
+      "correctAnswer": "Voyager 2",
+      "explanation": "Voyager 2 launched on 20 August 1977, sixteen days before Voyager 1, but took a slower path.",
+      "points": 30
+    },
+    {
+      "id": "quiz_newhorizons_001",
+      "artifactId": "new_horizons",
+      "question": "Which world did New Horizons fly past in July 2015?",
+      "type": "artifact_identification",
+      "difficulty": "beginner",
+      "options": ["Pluto", "Neptune", "Triton", "Ceres"],
+      "correctAnswer": "Pluto",
+      "explanation": "New Horizons made the first close flyby of Pluto on 14 July 2015.",
+      "points": 10
+    },
+    {
+      "id": "quiz_newhorizons_002",
+      "artifactId": "new_horizons",
+      "question": "What shape is Arrokoth, the Kuiper Belt object New Horizons visited?",
+      "type": "scientific_discovery",
+      "difficulty": "advanced",
+      "options": ["A contact binary of two lobes", "A perfect sphere", "A flat disc", "A ring system"],
+      "correctAnswer": "A contact binary of two lobes",
+      "explanation": "Arrokoth is a contact binary: two bodies that gently joined together early in solar system history.",
+      "points": 30
+    },
+    {
+      "id": "quiz_cassini_001",
+      "artifactId": "cassini",
+      "question": "What did Cassini discover at Saturn's moon Enceladus?",
+      "type": "scientific_discovery",
+      "difficulty": "intermediate",
+      "options": [
+        "Water-vapour geysers from a subsurface ocean",
+        "A thick oxygen atmosphere",
+        "Active lava flows",
+        "A second moon"
+      ],
+      "correctAnswer": "Water-vapour geysers from a subsurface ocean",
+      "explanation": "Cassini flew through plumes of water vapour and organic material spraying from Enceladus.",
+      "points": 20
+    },
+    {
+      "id": "quiz_cassini_002",
+      "artifactId": "cassini",
+      "question": "How did the Cassini mission end in 2017?",
+      "type": "mission_knowledge",
+      "difficulty": "beginner",
+      "options": [
+        "It was deliberately destroyed in Saturn's atmosphere",
+        "It returned to Earth",
+        "It crashed into Titan by accident",
+        "It is still orbiting Saturn"
+      ],
+      "correctAnswer": "It was deliberately destroyed in Saturn's atmosphere",
+      "explanation": "Cassini plunged into Saturn on 15 September 2017 to avoid contaminating moons that might support life.",
+      "points": 10
+    },
+    {
+      "id": "quiz_cassini_003",
+      "artifactId": "cassini",
+      "question": "Which moon did the Huygens probe land on?",
+      "type": "artifact_identification",
+      "difficulty": "advanced",
+      "options": ["Titan", "Enceladus", "Mimas", "Rhea"],
+      "correctAnswer": "Titan",
+      "explanation": "Huygens landed on Titan in January 2005, the most distant landing ever achieved.",
+      "points": 30
+    },
+    {
+      "id": "quiz_mariner4_001",
+      "artifactId": "mariner4",
+      "question": "What did Mariner 4's images of Mars show?",
+      "type": "scientific_discovery",
+      "difficulty": "intermediate",
+      "options": [
+        "A cratered, dry surface",
+        "A planet covered in canals",
+        "Oceans and forests",
+        "A thick oxygen atmosphere"
+      ],
+      "correctAnswer": "A cratered, dry surface",
+      "explanation": "The first close-up images showed craters and a dry landscape, overturning ideas about canals.",
+      "points": 20
+    },
+    {
+      "id": "quiz_mariner4_002",
+      "artifactId": "mariner4",
+      "question": "What was Mariner 4 the first spacecraft to do?",
+      "type": "mission_knowledge",
+      "difficulty": "advanced",
+      "options": [
+        "Photograph another planet from deep space",
+        "Land on Mars",
+        "Orbit Mars",
+        "Return samples from Mars"
+      ],
+      "correctAnswer": "Photograph another planet from deep space",
+      "explanation": "Mariner 4 returned the first images of another planet taken from deep space during its 1965 Mars flyby.",
+      "points": 30
+    }
+  ]
+}
