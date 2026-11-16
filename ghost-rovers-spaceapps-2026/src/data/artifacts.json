@@ -1,0 +1,152 @@
+[
+  {
+    "id": "apollo-11-lrrr",
+    "name": "Apollo 11 Laser Ranging Retroreflector",
+    "destination": "Moon",
+    "location": "Sea of Tranquility (0.67 N, 23.47 E)",
+    "landingDate": "July 20, 1969",
+    "status": "Active Passive Target",
+    "audioFile": "/audio/apollo11.m4a",
+    "mapPosition": { "top": "40%", "left": "64%" },
+    "storyHook": "Incoming transmission from Tranquility Base on the Moon. Hey there, Earth explorer! Apollo 11 astronauts left me behind in the grey lunar dust back in 1969. I do not have batteries, a computer, or even a single moving part. Yet every week, scientists on Earth fire super-powered green lasers across 238,000 miles of space straight at my 100 tiny mirrors! ZAP! I bounce that light right back home in two-and-a-half seconds. Thanks to me, NASA discovered that the Moon is slowly drifting away from Earth, about as fast as your fingernails grow!",
+    "scienceBreakthrough": "Proved the Moon is drifting away from Earth at 3.8 cm per year and measured Earth-Moon distance to millimeter precision.",
+    "spaceMath": [
+      { "label": "Active Lifespan", "value": "57+ Years", "detail": "Longest-running lunar experiment" },
+      { "label": "Mirror Prisms", "value": "100 Cubes", "detail": "Fused-silica corner reflectors" },
+      { "label": "Laser Round-Trip", "value": "2.5 Seconds", "detail": "Light speed to Moon and back" },
+      { "label": "Lunar Drift Rate", "value": "3.8 cm / yr", "detail": "38 cm farther every decade" }
+    ],
+    "quiz": {
+      "question": "How long does a laser pulse take to travel from Earth to this reflector and back?",
+      "options": ["25 Seconds", "2.5 Seconds", "0.25 Seconds"],
+      "correctIndex": 1,
+      "explanation": "Light travels at 186,000 miles per second! A round-trip to the Moon and back takes about 2.5 seconds.",
+      "badge": "Lunar Surveyor Badge"
+    }
+  },
+  {
+    "id": "surveyor-3",
+    "name": "Surveyor 3",
+    "destination": "Moon",
+    "location": "Ocean of Storms (3.01 S, 23.42 W)",
+    "landingDate": "April 20, 1967",
+    "status": "Visited by Apollo 12",
+    "audioFile": "/audio/surveyor3.m4a",
+    "mapPosition": { "top": "62%", "left": "32%" },
+    "storyHook": "BEEP-BOOP! Calling Earth from the Ocean of Storms! When I landed on the Moon in 1967, I thought I was going to sit alone in the freezing lunar dark forever. For 31 long months, nobody visited. Then THUMP, THUMP, THUMP! I heard footsteps! Two Apollo 12 astronauts walked right down into my crater, dusted me off, waved hello, and took my camera back to Earth! I proved that spacecraft and even tiny Earth microbes can survive years in harsh space weather!",
+    "scienceBreakthrough": "Only robotic lander visited by humans on another world; tested how 2.5 years of lunar dust, vacuum, and radiation age spacecraft hardware.",
+    "spaceMath": [
+      { "label": "Alone on Moon", "value": "31 Months", "detail": "944 days before astronaut visit" },
+      { "label": "Apollo 12 Distance", "value": "180 Meters", "detail": "Pinpoint landing right next door" },
+      { "label": "Parts Returned", "value": "10 kg", "detail": "TV camera and scoop brought home" },
+      { "label": "Trench Depth", "value": "17.5 cm", "detail": "Lunar soil tested by scoop" }
+    ],
+    "quiz": {
+      "question": "Which Apollo crew walked over to visit Surveyor 3 in November 1969?",
+      "options": ["Apollo 11", "Apollo 12", "Apollo 17"],
+      "correctIndex": 1,
+      "explanation": "Apollo 12 astronauts Pete Conrad and Alan Bean landed within 180 meters of Surveyor 3!",
+      "badge": "Ocean Explorer Badge"
+    }
+  },
+  {
+    "id": "opportunity-rover",
+    "name": "Opportunity Rover (Oppy)",
+    "destination": "Mars",
+    "location": "Meridiani Planum / Endeavour Crater",
+    "landingDate": "January 25, 2004",
+    "status": "Silent (Dust Storm 2018)",
+    "audioFile": "/audio/opportunity.m4a",
+    "mapPosition": { "top": "64%", "left": "25%" },
+    "storyHook": "Rover Opportunity reporting from Mars! When NASA built me, they gave me a 90-day warranty. Guess what? I kept rolling for nearly 15 Earth years! I climbed steep crater rims, survived freezing Martian winters, and drove over 28 miles across the red dust. Along the way, I found tiny mineral blueberries that proved liquid water once flowed on Mars! Then in 2018, a massive dust storm turned the Martian sky pitch black. My final message home was: My battery is low and it is getting dark. Do not worry, cadet, my tire tracks on Mars will last forever!",
+    "scienceBreakthrough": "Discovered hematite blueberries and sulfate minerals proving liquid water once flowed across ancient Mars.",
+    "spaceMath": [
+      { "label": "Lifespan Bonus", "value": "56.7x", "detail": "5,111 sols vs. 90 sols planned" },
+      { "label": "Distance Driven", "value": "45.16 km", "detail": "28.06 miles off-world record" },
+      { "label": "Photos Sent", "value": "217,594", "detail": "Raw Martian images beamed home" },
+      { "label": "Active Years", "value": "14.5 Years", "detail": "Operational from 2004 to 2018" }
+    ],
+    "quiz": {
+      "question": "How long was Opportunity originally designed to last on Mars?",
+      "options": ["90 Martian Days", "1 Earth Year", "10 Earth Years"],
+      "correctIndex": 0,
+      "explanation": "Opportunity was built for a 90-sol mission, but lasted over 5,100 sols!",
+      "badge": "Red Planet Rover Badge"
+    }
+  },
+  {
+    "id": "insight-lander",
+    "name": "InSight Lander",
+    "destination": "Mars",
+    "location": "Elysium Planitia",
+    "landingDate": "November 26, 2018",
+    "status": "Silent (Retired 2022)",
+    "audioFile": "/audio/insight.m4a",
+    "mapPosition": { "top": "52%", "left": "75%" },
+    "storyHook": "Shhh, listen closely! This is the InSight Lander on Mars. While other rovers drove around looking at rocks, I stayed in one spot and put my ear to the ground to listen to the heartbeat of Mars! Using my ultra-sensitive seismometer, I felt over 1,300 rumbling marsquakes and meteorite crashes! Those vibrations helped scientists draw the very first 3D map of Mars deep liquid iron core. Red dust eventually covered my solar wings, so I am resting now, but I unlocked the secrets hidden miles beneath the Martian surface!",
+    "scienceBreakthrough": "Measured over 1,300 marsquakes to map Mars crust, mantle, and liquid iron-nickel core for the first time.",
+    "spaceMath": [
+      { "label": "Marsquakes Heard", "value": "1,319", "detail": "First seismic map of Mars" },
+      { "label": "Biggest Quake", "value": "Mag 4.7", "detail": "Recorded in May 2022" },
+      { "label": "Liquid Core Radius", "value": "1,830 km", "detail": "Measured via seismic waves" },
+      { "label": "Solar Power Drop", "value": "94% Loss", "detail": "Dust blanketed solar panels" }
+    ],
+    "quiz": {
+      "question": "What did InSight listen for beneath the surface of Mars?",
+      "options": ["Underground rivers", "Marsquakes", "Subway trains"],
+      "correctIndex": 1,
+      "explanation": "InSight used its SEIS seismometer to detect over 1,300 marsquakes and meteorite impacts.",
+      "badge": "Seismic Detective Badge"
+    }
+  },
+  {
+    "id": "ingenuity-helicopter",
+    "name": "Ingenuity Mars Helicopter",
+    "destination": "Mars",
+    "location": "Jezero Crater",
+    "landingDate": "April 19, 2021 (First Flight)",
+    "status": "Retired (Flight 72)",
+    "audioFile": "/audio/ingenuity.m4a",
+    "mapPosition": { "top": "26%", "left": "48%" },
+    "storyHook": "WHOOSH! SPINNING UP ROTORS AT 2,400 RPM! Hey Earth, it is Ingenuity, the first helicopter to ever fly on another planet! Everyone said flying on Mars was impossible because the air is 100 times thinner than Earth. Well, I proved them wrong! I was only supposed to make 5 test flights, and I ended up flying 72 times across Jezero Crater, scouting ahead for the Perseverance rover! Even though I broke a rotor tip on my final landing, I proved that future astronauts will be able to fly across alien worlds!",
+    "scienceBreakthrough": "Achieved the first powered, controlled flight on another planet and scouted ahead for the Perseverance rover.",
+    "spaceMath": [
+      { "label": "Flight Bonus", "value": "14.4x", "detail": "72 flights vs. 5 planned" },
+      { "label": "Blade Spin Speed", "value": "2,400 RPM", "detail": "10x faster than Earth choppers" },
+      { "label": "Total Distance", "value": "17.0 km", "detail": "10.5 miles flown across Mars" },
+      { "label": "Total Airtime", "value": "128.8 Mins", "detail": "Over 2 hours aloft on Mars" }
+    ],
+    "quiz": {
+      "question": "Why did Ingenuity have to spin its blades so fast on Mars?",
+      "options": ["Mars air is 100x thinner", "Mars has 10x stronger gravity", "To melt ice"],
+      "correctIndex": 0,
+      "explanation": "Because Mars atmosphere has less than 1% the density of Earth air, blades must spin super fast to generate lift.",
+      "badge": "Martian Aviator Badge"
+    }
+  },
+  {
+    "id": "voyager-1",
+    "name": "Voyager 1",
+    "destination": "Deep Space",
+    "location": "Interstellar Space (Beyond Heliosphere)",
+    "landingDate": "Launched September 5, 1977",
+    "status": "Active in Interstellar Space",
+    "audioFile": "/audio/voyager1.m4a",
+    "mapPosition": { "top": "48%", "left": "50%" },
+    "storyHook": "Transmission received from interstellar space over 15 billion miles from Earth. I am Voyager 1, the farthest human-made object in history! I launched in 1977, zoomed past giant Jupiter and ringed Saturn, and snapped the famous Pale Blue Dot photo of our tiny home planet. In 2012, I broke right through the edge of our Sun magnetic bubble into the space between the stars! Bolted to my side is the Golden Record, a time capsule carrying Earth music, whale songs, and greetings in 55 languages. I am still traveling through the dark ocean of stars, carrying humanity voice forever!",
+    "scienceBreakthrough": "First spacecraft to cross the heliopause into interstellar space and capture the iconic Pale Blue Dot photo of Earth.",
+    "spaceMath": [
+      { "label": "Distance from Earth", "value": "24+ Billion km", "detail": "Over 162x Earth-Sun distance" },
+      { "label": "Cruising Speed", "value": "61,000 km/h", "detail": "~38,000 miles per hour" },
+      { "label": "Radio Signal Delay", "value": "22.5+ Hours", "detail": "One-way travel at light speed" },
+      { "label": "Mission Age", "value": "49 Years", "detail": "Still transmitting since 1977" }
+    ],
+    "quiz": {
+      "question": "What famous record does Voyager 1 carry with sounds and greetings from Earth?",
+      "options": ["The Silver Disc", "The Golden Record", "The Mars Mixtape"],
+      "correctIndex": 1,
+      "explanation": "Voyager 1 carries the Golden Record, a time capsule of Earth sounds, music, and greetings.",
+      "badge": "Interstellar Pioneer Badge"
+    }
+  }
+]
