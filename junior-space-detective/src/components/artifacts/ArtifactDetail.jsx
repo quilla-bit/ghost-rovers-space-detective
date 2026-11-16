@@ -1,11 +1,14 @@
+import { useState } from "react";
 import DestinationChip from "../shared/DestinationChip.jsx";
 import {
   DIFFICULTY_LABELS,
   STATUS_LABELS,
 } from "../../utils/constants.js";
+import { getGhostMediaForArtifact } from "../../data/ghostRoversMedia.js";
 
 /**
- * Full artifact dossier: mission context, scientific results, sources and
+ * Full artifact dossier: Ghost Rovers audio transmission + frequency tuner,
+ * Space Math telemetry, mission context, scientific results, sources and
  * related hardware.
  */
 export function ArtifactDetail({
@@ -17,6 +20,23 @@ export function ArtifactDetail({
   onOpenRelated,
   onStartQuiz,
 }) {
+  const ghostMedia = getGhostMediaForArtifact(artifact);
+  const [tunerValue, setTunerValue] = useState(150);
+  const [signalUnlocked, setSignalUnlocked] = useState(false);
+  const [audioError, setAudioError] = useState(false);
+
+  const targetFreq = ghostMedia?.frequencyMhz || 150;
+  const diff = Math.abs(tunerValue - targetFreq);
+  const signalStrength = Math.max(0, Math.min(100, Math.round(100 - diff * 1.6)));
+  const isLocked = signalUnlocked || signalStrength >= 95;
+
+  const handleTune = (val) => {
+    setTunerValue(val);
+    if (Math.abs(val - targetFreq) <= 3) {
+      setSignalUnlocked(true);
+    }
+  };
+
   return (
     <article>
       <button type="button" className="btn btn-ghost btn-sm detail-back" onClick={onBack}>
@@ -62,6 +82,90 @@ export function ArtifactDetail({
           </div>
         </dl>
       </header>
+
+      {/* Ghost Rovers: Interactive Signal Tuner + Voice Transmission + Space Math */}
+      {ghostMedia ? (
+        <section className="card ghost-transmission-panel" aria-label="Spacecraft Voice Transmission">
+          <div className="row spread" style={{ flexWrap: "wrap", gap: "0.75rem" }}>
+            <div>
+              <p className="eyebrow">Ghost Rovers Audio Link</p>
+              <h2>
+                {isLocked
+                  ? "🟢 Signal Locked — Incoming Voice Log"
+                  : "📻 Tune Deep Space Frequency to Decode Voice Log"}
+              </h2>
+            </div>
+            <span className="pill">
+              <strong>{tunerValue} MHz</strong> • Signal: <strong>{signalStrength}%</strong>
+            </span>
+          </div>
+
+          {!isLocked ? (
+            <div style={{ marginTop: "1rem" }}>
+              <label htmlFor="freq-dial" className="muted" style={{ display: "block", marginBottom: "0.5rem" }}>
+                Slide the frequency dial until signal strength reaches <strong>95%+</strong> (or click Quick-Lock):
+              </label>
+              <div style={{ display: "flex", gap: "0.75rem", alignItems: "center", flexWrap: "wrap" }}>
+                <input
+                  id="freq-dial"
+                  type="range"
+                  min="100"
+                  max="260"
+                  value={tunerValue}
+                  onChange={(e) => handleTune(Number(e.target.value))}
+                  style={{ flex: 1, minWidth: "200px" }}
+                />
+                <button
+                  type="button"
+                  className="btn btn-sm"
+                  onClick={() => handleTune(targetFreq)}
+                >
+                  Auto-Tune ({targetFreq} MHz)
+                </button>
+              </div>
+            </div>
+          ) : (
+            <div style={{ marginTop: "1rem" }}>
+              {!audioError ? (
+                <audio
+                  controls
+                  src={ghostMedia.audioFile}
+                  onError={() => setAudioError(true)}
+                  style={{ width: "100%", marginBottom: "0.9rem" }}
+                >
+                  Your browser does not support the audio element.
+                </audio>
+              ) : (
+                <p className="dim">
+                  Audio log file ({ghostMedia.audioFile}) ready for playback in browser.
+                </p>
+              )}
+
+              <blockquote
+                style={{
+                  borderLeft: "3px solid currentColor",
+                  paddingLeft: "1rem",
+                  margin: "0.75rem 0 1.25rem",
+                  fontStyle: "italic",
+                }}
+              >
+                &ldquo;{ghostMedia.voiceStory}&rdquo;
+              </blockquote>
+
+              <h3>📐 By the Numbers (Space Math Telemetry)</h3>
+              <div className="grid grid-2" style={{ marginTop: "0.65rem" }}>
+                {ghostMedia.spaceMath.map((stat) => (
+                  <div key={stat.label} className="meta-item">
+                    <dt>{stat.label}</dt>
+                    <dd style={{ fontSize: "1.2rem", fontWeight: 700 }}>{stat.value}</dd>
+                    <span className="dim" style={{ fontSize: "0.85rem" }}>{stat.detail}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </section>
+      ) : null}
 
       <div className="grid grid-2">
         <section className="card" aria-labelledby="location-heading">
@@ -128,7 +232,7 @@ export function ArtifactDetail({
           ) : null}
           {typeof onStartQuiz === "function" ? (
             <button type="button" className="btn btn-sm mt-2" onClick={onStartQuiz}>
-Take the detective quiz
+              Take the detective quiz
             </button>
           ) : null}
         </section>
